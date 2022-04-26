@@ -1012,6 +1012,7 @@ a {
   display: inline-block;
   margin: 0 10px;
   border: 1px solid #ccc;
+  background-color: white;
   text-align: center;
   width: 90px;
   height: 90px;
