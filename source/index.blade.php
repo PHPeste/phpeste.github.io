@@ -10,14 +10,15 @@
         <div class="row align-items-center justify-content-center">
           <div class="col-md-10 text-center" data-aos="fade">
             <h1 class="mb-4">Maior conferência PHP do Nordeste</h1>
-            <p class="mb-5">{{ $page->event_period }} &bullet; 
-                <!--
+            <div class="mb-5">
+                <p>
+                    {{ $page->event_period }} &bullet; 
+                    <u>2022</u>
+                </p>
                 <a class="maps" href="" target="_blank">
                     {{ $page->event_location }}
                 </a>
-                -->
-                <u>2022</u>
-            </p>
+            </div>
             <div class="col-md-8 mx-auto text-center section-heading">
                 <div id="date-countdown" class="mb-4"></div>
             </div>

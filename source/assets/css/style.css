@@ -595,6 +595,7 @@ a {
     line-height: 1.5; }
   .site-blocks-cover a.maps {
     color: #fff;
+    font-size: 1.2rem;
     border-bottom: 1px #d6b674 solid;
   }
   
