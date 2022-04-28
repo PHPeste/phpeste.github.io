@@ -8,7 +8,6 @@ return [
     'event_location' => 'SEBRAE - Natal/RN',
     'event_period' => '7, 8 e 9 de outubro',
     'event_contact_email' => 'coordenacao@phprn.org',
-    #'submit_link_lecture' => 'https://speakerfight.com/events/call4papers-phpeste-2019-recifepe/',
     'event_facebook' => '',
     'event_twitter' => 'https://twitter.com/phpestene',
     'event_instagram' => 'https://www.instagram.com/phpeste/',

@@ -15,10 +15,6 @@
               <p>{{ $speaker->profession }}</p>
             </div>
           </div>
-        @empty
-            <div class="col-md-12 col-lg-12 mb-4">
-              <h1 class="text-center">Seja um <a href="{{ $page->submit_link_lecture }}">palestrante</a>!</h1>
-            </div>
         @endforelse
 
         </div>
