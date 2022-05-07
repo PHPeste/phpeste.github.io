@@ -1,5 +1,5 @@
 [build]
 
-command = "npm run production && npm run export"
+command = "yarn build && yarn export"
 publish = "build_production"
 environment = { PHP_VERSION = "7.4" }
