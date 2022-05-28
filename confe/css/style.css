@@ -971,10 +971,12 @@ a {
   text-align: center;
   width: 90px;
   height: 90px;
+  background-color: white;
   padding-top: 18px;
   border-radius: 4px;
   margin-bottom: 20px; }
   #date-countdown .countdown-block:first-child {
+    background-color: white;
     margin-left: 0; }
 
 #date-countdown .label {
