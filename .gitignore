@@ -6,6 +6,7 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
+yarn.lock
 
 # Optional ignores
 # /build_staging/
