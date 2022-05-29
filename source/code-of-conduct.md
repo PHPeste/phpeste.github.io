@@ -2,6 +2,7 @@
 extends: _layouts.simple-page
 title: Código de conduta
 section: pageContent
+headerImage: /assets/images/code-of-conduct/header.png
 ---
 # Código de Conduta PHPeste
 
