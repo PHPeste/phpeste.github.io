@@ -7,7 +7,7 @@ return [
     'event_ticket' => 'https://loja.phpeste.net',
     'event_location' => 'SEBRAE - Natal/RN',
     'event_period' => '7, 8 e 9 de outubro',
-    'event_contact_email' => 'coordenacao@phprn.org',
+    'event_contact_email' => 'contato@phpeste.org',
     'event_facebook' => '',
     'event_twitter' => 'https://twitter.com/phpestene',
     'event_instagram' => 'https://www.instagram.com/phpeste/',
