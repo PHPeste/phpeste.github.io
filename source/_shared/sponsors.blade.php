@@ -30,7 +30,7 @@
   
     <div class="row mb-5">
       <div class="col-md-12 col-lg-12 mb-4">
-        <h1 class="text-center">Seja um <a href="/contact">patrocinador</a>!</h1>
+        <h1 class="text-center">Seja um <a target="_blank" href="https://bit.ly/3OEAiOy">patrocinador</a>!</h1>
       </div>
     </div>
   </div>
