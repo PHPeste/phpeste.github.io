@@ -19,6 +19,9 @@ return [
         'gold' => [
             'description' => 'Ouro',
         ],
+        'bronze' => [
+            'description' => 'Bronze',
+        ],
         'support' => [
             'description' => 'Apoio',
         ],
