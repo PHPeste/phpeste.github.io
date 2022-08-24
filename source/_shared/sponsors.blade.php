@@ -5,28 +5,57 @@
         <h2 class="mb-5 text-uppercase">{{ $title }}</h2>
       </div>
     </div>
-    @foreach ($page->categories as $key => $category)
-      @if (count($sponsors) > 0)
-        <div class="row mb-5">
-          <div class="col-md-12 text-left section-heading">
-            <h4 class="mb-5 text-uppercase">{{ $category->description }}</h4>
-          </div>
-          @foreach ($sponsors as $sponsor)
-            @if ($sponsor->type === $key)
-                <div class="col-6 col-md-6 col-lg-3">
-                  @if($sponsor->website)
-                    <a href="{{ $sponsor->website }}" target="_blank" class="btn">
-                      <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
-                    </a>
-                  @else
-                    <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
-                  @endif
-                </div>
-            @endif
-          @endforeach
+    <div class="row mb-5">
+      <div class="col-md-12 text-left section-heading">
+        <h4 class="mb-5 text-uppercase">{{ $page->categories['diamond']['description'] }}</h4>
+      </div>
+
+      @foreach ($sponsors->filter(fn ($s) => $s->type === 'diamond') as $sponsor)
+        <div class="col-12 col-md-6 col-lg-6 sponsor">
+          @if($sponsor->website)
+            <a href="{{ $sponsor->website }}" target="_blank" class="btn">
+              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            </a>
+          @else
+            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+          @endif
         </div>
-      @endif
-    @endforeach
+      @endforeach
+    </div>
+    <div class="row mb-5">
+      <div class="col-md-12 text-left section-heading">
+        <h4 class="mb-5 text-uppercase">{{ $page->categories['gold']['description'] }}</h4>
+      </div>
+
+      @foreach ($sponsors->filter(fn ($s) => $s->type === 'gold') as $sponsor)
+        <div class="col-6 col-md-4 col-lg-4 sponsor">
+          @if($sponsor->website)
+            <a href="{{ $sponsor->website }}" target="_blank" class="btn">
+              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            </a>
+          @else
+            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+          @endif
+        </div>
+      @endforeach
+    </div>
+    <div class="row mb-5">
+      <div class="col-md-12 text-left section-heading">
+        <h4 class="mb-5 text-uppercase">{{ $page->categories['bronze']['description'] }}</h4>
+      </div>
+
+      @foreach ($sponsors->filter(fn ($s) => $s->type === 'bronze') as $sponsor)
+        <div class="col-4 col-md-3 col-lg-3 sponsor">
+          @if($sponsor->website)
+            <a href="{{ $sponsor->website }}" target="_blank" class="btn">
+              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            </a>
+          @else
+            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+          @endif
+        </div>
+      @endforeach
+    </div>
   
     <div class="row mb-5">
       <div class="col-md-12 col-lg-12 mb-4">
