@@ -11,6 +11,6 @@
     </div>
   </div>  
   
-  @include('_shared.programming', ['title' => 'Programação'])
+  @include('_shared.schedule', ['title' => 'Programação'])
   @include('_shared.contact-info')
 @endsection
