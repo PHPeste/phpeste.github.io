@@ -22,6 +22,9 @@
             <div class="col-md-8 mx-auto text-center section-heading">
                 <div id="date-countdown" class="mb-4"></div>
             </div>
+            <a href="{{ $page->event_ticket }}" class="btn btn-primary btn-lg px-4 py-2">
+              {{ $page->event_ticket_cta }}
+            </a>
           </div>
         </div>
       </div>

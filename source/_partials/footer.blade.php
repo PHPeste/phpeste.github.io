@@ -13,7 +13,7 @@
               <ul class="list-unstyled">
                 <li><a href="/about">Sobre</a></li>
                 <li><a href="/sponsors">Patrocinadores</a></li>
-                <!-- <li><a href="{{ $page->event_ticket ?? '#' }}">Ingressos</a></li> -->
+                <li><a href="{{ $page->event_ticket ?? '#' }}">Ingressos</a></li>
                 <!-- <li><a href="/speakers">Palestrantes</a></li> -->
                 <!-- <li><a href="https://www.depassaporte.com.br/phpeste" target="_blank">Passagens aéreas</a></li> -->
               </ul>
