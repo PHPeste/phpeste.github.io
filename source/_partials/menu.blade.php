@@ -24,6 +24,7 @@
                     <div class="d-inline-block  ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
                      <!-- d-lg-block -->
                     <ul class="site-menu js-clone-nav d-none">
+                      <li><a href="{{ $page->event_ticket }}" class="btn btn-primary px-4 py-2" style="color: #fff"  target="_blank">{{ $page->event_ticket_cta }}</a></li>
                       <li><a href="/">Home</a></li>
                       <li class="{{ $page->selected('about') }}"><a href="/about">Sobre</a></li>
                       <!-- <li><a href="/programming">Programação</a></li> -->
@@ -31,7 +32,6 @@
                       <!-- <li class="{{ $page->selected('speakers') }}"><a href="/speakers">Palestrantes</a></li> -->
                       <li class="{{ $page->selected('sponsors') }}"><a href="/sponsors">Patrocinadores</a></li>
                       <li class="{{ $page->selected('code-of-conduct') }}"><a href="/code-of-conduct">Código de conduta</a></li>
-                      <!-- <li><a href="http://loja.phpeste.net" target="_blank">Ingressos</a></li> -->
                       <!-- <li><a href="https://www.depassaporte.com.br/phpeste" target="_blank">Passagens aéreas</a></li> -->
                       <li class="{{ $page->selected('contact') }}"><a href="/contact">Contato</a></li>
                     </ul>
