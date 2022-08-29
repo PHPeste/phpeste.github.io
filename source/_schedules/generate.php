@@ -4,6 +4,16 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 use Illuminate\Support\Str;
 
 $entries = [
+    ['2022-10-07 14:00', [4, 5], 'Abertura', 'span', ['PHPeste'], null, null, null],
+
+    ['2022-10-07 15:00', [1], 'Escrevendo testes valiosos com Pest (ou PHPUnit)', 'palestra', ['Mateus Guimarães'], 'https://twitter.com/mateusjatenee', null, 'https://instagram.com/mateusjatenee'],
+    ['2022-10-07 15:00', [2, 3], 'O poder do Object Calisthenics no PHP', 'palestra', ['Joubert Guimarães de Assis'], 'https://twitter.com/joubertredrat', null, 'https://www.instagram.com/joubertredrat'],
+    ['2022-10-07 15:00', [6], 'Musas inspiradoras da tecnologia', 'palestra', ['Alice'], null, null, null],
+
+    ['2022-10-07 16:00', [6], 'Como melhorar o mercado de desenvolvimento, tanto para os devs bem como para as empresas', 'round-table', ['Cyrille Grandval'], null, null, null],
+
+    ['2022-10-07 17:30', [6], 'Encerramento', 'span', ['PHPeste'], null, null, null],
+
     ['2022-10-08 08:00', [2, 3], 'Como deixar sua aplicação PHP mais segura', 'palestra', ['Anne Caroline Rodrigues Pereira'], null, null, 'carol_rodrigues_p'],
     ['2022-10-08 08:00', [1], 'Vivendo através da ajuda da comunidade', 'palestra', ['PokémãoBR'], null, null, ''],
     ['2022-10-08 08:00', [6], 'Jogar wordle/letreco com PHP e Selenium', 'palestra', ['Thiago Dantas Soares'], null, null, 'dantas__thiago'],
