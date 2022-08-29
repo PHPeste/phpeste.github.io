@@ -3,7 +3,7 @@ title: 'O bê-a-bá da arquitetura de software!'
 type: palestra
 speakers:
   - Marcel dos Santos
-picture: /assets/images/schedule/marcel-dos-santos.jpg
+picture: /assets/images/schedule/marcel-dos-santos.png
 linkedin: 
 twitter: 
 instagram: 
