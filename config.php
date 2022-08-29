@@ -41,7 +41,7 @@ return [
             'sort' => 'first_name',
         ],
         'schedules' => [
-            'path' => 'programming',
+            'path' => '{collection}/{title}',
             'sort' => 'speaker',
         ]
     ],
