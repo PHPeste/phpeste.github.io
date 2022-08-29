@@ -3,7 +3,7 @@ title: 'Paradigmas de Programação: Uma Visão Geral sobre Orientação a Objet
 type: palestra
 speakers:
   - Marcel dos Santos
-picture: /assets/images/schedule/marcel-dos-santos.jpg
+picture: /assets/images/schedule/marcel-dos-santos.png
 linkedin: 
 twitter: 
 instagram: 

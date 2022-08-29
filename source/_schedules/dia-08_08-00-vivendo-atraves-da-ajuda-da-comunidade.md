@@ -3,7 +3,7 @@ title: 'Vivendo através da ajuda da comunidade'
 type: palestra
 speakers:
   - PokémãoBR
-picture: /assets/images/schedule/pokemaobr.jpg
+picture: /assets/images/schedule/pokemaobr.png
 linkedin: 
 twitter: 
 instagram: 
