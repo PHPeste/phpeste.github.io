@@ -2,6 +2,7 @@
 
 return [
     'production' => false,
+    'root' => __DIR__,
     'baseUrl' => '',
     'event_name' => 'PHPeste',
     'event_ticket' => 'https://outgo.com.br/ph-peste',
