@@ -34,6 +34,7 @@ $dia3 = $sorted
         <tbody>
           @foreach ($dia1 as $date => $events)
             @php
+              $events = $events->sortBy(fn ($e) => $e->rooms[0])->sortBy('date');
               [, $time] = explode(' ', $events->first()->date);
             @endphp
             <tr>
@@ -88,6 +89,7 @@ $dia3 = $sorted
         <tbody>
           @foreach ($dia2 as $date => $events)
             @php
+              $events = $events->sortBy(fn ($e) => $e->rooms[0])->sortBy('date');
               [, $time] = explode(' ', $events->first()->date);
             @endphp
             <tr>
@@ -142,6 +144,7 @@ $dia3 = $sorted
         <tbody>
           @foreach ($dia3 as $date => $events)
             @php
+              $events = $events->sortBy(fn ($e) => $e->rooms[0])->sortBy('date');
               [, $time] = explode(' ', $events->first()->date);
             @endphp
             <tr>
