@@ -1,10 +1,10 @@
 ---
-title: 'Devsquad'
+title: 'Simplicidade no código: O grau mais alto de sofisticação'
 type: palestra
 speakers:
-  - Devsquad
-picture: /assets/images/schedule/devsquad.jpg
-linkedin: 
+  - Matheus Lopes Santos
+picture: /assets/images/schedule/matheus_lopes.jpeg
+linkedin: https://www.linkedin.com/in/matheus-lopes-santos
 twitter: 
 instagram: 
 date: '2022-10-08 10:00'
