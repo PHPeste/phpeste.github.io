@@ -2,7 +2,7 @@
 title: 'Musas inspiradoras da tecnologia'
 type: palestra
 speakers:
-  - Alice
+  - Alice Richard
 picture: /assets/images/schedule/alice.jpg
 linkedin: 
 twitter: 
