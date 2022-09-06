@@ -2,7 +2,7 @@
 title: 'Como deixar sua aplicação PHP mais segura'
 type: palestra
 speakers:
-  - Anne Caroline Rodrigues Pereira
+  - Anne Caroline
 picture: /assets/images/schedule/anne-caroline-rodrigues-pereira.jpg
 linkedin: 
 twitter: 
