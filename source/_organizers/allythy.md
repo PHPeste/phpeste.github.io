@@ -11,6 +11,6 @@ social:
 section: info
 ---
 
-Entusiasta do movimento de Software Livre, coordenador da PotiLivre (Comunidade Potiguar de Software Livre).
+Entusiasta do movimento de Software Livre, coordenador da [PotiLivre (Comunidade Potiguar de Software Livre)](https://www.potilivre.org/).
 
-Fundador e coordenador do [PHP-RN](https://twitter.com/phprn), coordenador do [GruPy-RN](https://www.facebook.com/grupyrn/) e desenvolvedor.
+Fundador e coordenador do [PHP-RN](https://twitter.com/phprn), coordenador do [GruPy-RN](https://meetup.grupyrn.org/) e desenvolvedor.
