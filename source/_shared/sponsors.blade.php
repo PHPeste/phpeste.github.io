@@ -62,5 +62,23 @@
         <h1 class="text-center">Seja um <a target="_blank" href="https://bit.ly/3OEAiOy">patrocinador</a>!</h1>
       </div>
     </div>
+
+    <div class="row mb-5">
+      <div class="col-md-12 text-left section-heading">
+        <h4 class="mb-5 text-uppercase">{{ $page->categories['support']['description'] }}</h4>
+      </div>
+
+      @foreach ($sponsors->filter(fn ($s) => $s->type === 'support') as $sponsor)
+        <div class="col-4 col-md-3 col-lg-3 sponsor">
+          @if($sponsor->website)
+            <a href="{{ $sponsor->website }}" target="_blank" class="btn">
+              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            </a>
+          @else
+            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+          @endif
+        </div>
+      @endforeach
+    </div>
   </div>
 </div>
