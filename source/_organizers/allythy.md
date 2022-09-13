@@ -7,9 +7,10 @@ website: "https://allythy.github.io/"
 image: /assets/images/uploads/allythy.jpg
 social:
   Github: "https://github.com/allythy"
+  LinkedIn: https://www.linkedin.com/in/allythy/
 section: info
 ---
 
-Graduado em Gestão da Tecnologia da Informação. Contribuidor do Projeto Debian. Coordenador da PotiLivre (Comunidade Potiguar de Software Livre).
+Entusiasta do movimento de Software Livre, coordenador da PotiLivre (Comunidade Potiguar de Software Livre).
 
-Fundador e coordenador do PHP-RN, coordenador do GruPy-RN. Ex-colaborador do SempreUpdate, no qual foi autor por um período de dois anos.
+Fundador e coordenador do [PHP-RN](https://twitter.com/phprn), coordenador do [GruPy-RN](https://www.facebook.com/grupyrn/) e desenvolvedor.
