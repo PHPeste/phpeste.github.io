@@ -122,13 +122,17 @@
                 @foreach ($organizers as $organizer)
                     <div class="col-md-6 col-lg-3 col-sm-12 mb-2">
                         <div class="organizer text-left">
-                            <img src="{{ $organizer->image }}" alt="Image" class="img-fluid">
-                            <h3 class="heading mb-0 mt-6"><a href="#"><span>{{ $organizer->first_name }}</span> {{ $organizer->last_name }}</a></h3>
+                            <img src="{{ $organizer->image }}" alt="Foto de {{ $organizer->first_name }}" class="img-fluid">
+                            <h3 class="heading mb-0 mt-6">
+                              <a href="{{ $organizer->website }}" target="_new">
+                                <span>{{ $organizer->first_name }}</span> {{ $organizer->last_name }}
+                              </a>
+                            </h3>
                             <div class="organizer_rede">
                               <ul>
                                 @foreach ($organizer->social ?? [] as $key => $item)
                                   <li>
-                                    <a href="{{ $item }}" alt="{{ $key }}">
+                                    <a href="{{ $item }}" alt="{{ $key }}" target="_new">
                                       <img src="{{ '/assets/images/' . strtolower($key) . '.png' }}" />
                                     </a>
                                   </li>
