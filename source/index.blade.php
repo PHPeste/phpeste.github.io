@@ -31,8 +31,9 @@
     </div>
 
     @include('_about')
-
+    
     @include('_shared.block-images', ['image1' => 'images/img_1.jpg', 'image2' => 'images/img_2.jpg'])
-
     @include('_shared.block-images', ['image1' => 'images/img_3.jpg', 'image2' => 'images/img_4.jpg'])
+
+    @include('_shared.sponsors', ['title' => 'Patrocinadores'])
 @endsection
