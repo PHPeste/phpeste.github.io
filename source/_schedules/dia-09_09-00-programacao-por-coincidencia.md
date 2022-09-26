@@ -1,5 +1,5 @@
 ---
-title: 'Como proteger o seu legado'
+title: 'Programação por coincidência'
 type: palestra
 speakers:
   - Nickolas Da Silva
