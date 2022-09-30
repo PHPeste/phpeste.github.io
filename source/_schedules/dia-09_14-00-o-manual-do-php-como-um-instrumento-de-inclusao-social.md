@@ -1,12 +1,12 @@
 ---
-title: 'O manual do PHP como um instrumento de inclusão social'
+title: 'Hyperf: PHP e Swoole levados a sério'
 type: palestra
 speakers:
-  - Daniel Rodrigues Lima
-picture: /assets/images/schedule/daniel-rodrigues-lima.jpg
+  - Lucas Vinicius
+picture: /assets/images/schedule/lucas-vinicius.png
 linkedin: 
-twitter: https://twitter.com/geekcom2
-instagram: https://www.instagram.com/geekcomdev
+twitter: 
+instagram: 
 date: '2022-10-09 14:00'
 rooms:
   - 1
