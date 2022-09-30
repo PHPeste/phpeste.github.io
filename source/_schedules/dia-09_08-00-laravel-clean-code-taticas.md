@@ -2,8 +2,8 @@
 title: 'Laravel Clean Code, Táticas'
 type: palestra
 speakers:
-  - Jilcimar da Silva Fernandes
-  - Paulo Victor de Azevedo Guerra
+  - Jilcimar Fernandes
+  - Paulo Victor
 picture: /assets/images/schedule/jilcimar-da-silva-fernandes-e-paulo-victor-de-azevedo-guerra.jpg
 linkedin: 
 twitter: 

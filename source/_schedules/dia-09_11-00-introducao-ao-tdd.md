@@ -2,8 +2,8 @@
 title: 'Introdução ao TDD'
 type: palestra
 speakers:
-  - Sávio Henrique Silva Araújo
-picture: /assets/images/schedule/savio-henrique-silva-araujo.jpg
+  - Sávio Henrique
+picture: /assets/images/schedule/savio-henrique.jpg
 linkedin: 
 twitter: Savioosilvaa
 instagram: 
