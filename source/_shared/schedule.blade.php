@@ -172,6 +172,13 @@ $dia3 = $sorted
                     @if ($hasPicture)
                       <img src="{{ $event->picture }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
                     @endif
+                    
+                    <div>
+                      @foreach ($event->speakersPictures as $picture)
+                        <img src="{{ $picture }}" class="img-thumbnail img-fluid rounded-circle" width="100">
+                      @endforeach
+                    </div>
+
                     <h5>{{ implode(', ', $event->speakers) }}</h5>
                     <small>Local: {{ Str::plural('sala', count($event->rooms)) }} {{ implode(', ', $event->rooms) }}</small> 
                     <br>
