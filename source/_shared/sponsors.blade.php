@@ -24,10 +24,10 @@
     </div>
     <div class="row mb-5">
       <div class="col-md-12 text-left section-heading">
-        <h4 class="mb-5 text-uppercase">{{ $page->categories['gold']['description'] }}</h4>
+        <h4 class="mb-5 text-uppercase">{{ $page->categories['silver']['description'] }}</h4>
       </div>
 
-      @foreach ($sponsors->filter(fn ($s) => $s->type === 'gold') as $sponsor)
+      @foreach ($sponsors->filter(fn ($s) => $s->type === 'silver') as $sponsor)
         <div class="col-6 col-md-4 col-lg-4 sponsor">
           @if($sponsor->website)
             <a href="{{ $sponsor->website }}" target="_blank" class="btn">
@@ -45,7 +45,7 @@
       </div>
 
       @foreach ($sponsors->filter(fn ($s) => $s->type === 'bronze') as $sponsor)
-        <div class="col-4 col-md-3 col-lg-3 sponsor">
+        <div class="col-4 col-md-2 col-lg-2 sponsor">
           @if($sponsor->website)
             <a href="{{ $sponsor->website }}" target="_blank" class="btn">
               <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
@@ -69,7 +69,7 @@
       </div>
 
       @foreach ($sponsors->filter(fn ($s) => $s->type === 'support') as $sponsor)
-        <div class="col-4 col-md-3 col-lg-3 sponsor">
+        <div class="col-4 col-md-2 col-lg-2 sponsor">
           @if($sponsor->website)
             <a href="{{ $sponsor->website }}" target="_blank" class="btn">
               <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
