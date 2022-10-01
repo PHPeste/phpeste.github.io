@@ -3,6 +3,7 @@ title: 'Não deixe o framework atrasar suas entregas'
 type: palestra
 speakers:
   - Alessandro Feitoza
+speakersPictures: []
 picture: /assets/images/schedule/alessandro-feitoza.jpg
 linkedin: 
 twitter: https://twitter.com/feitozaAle

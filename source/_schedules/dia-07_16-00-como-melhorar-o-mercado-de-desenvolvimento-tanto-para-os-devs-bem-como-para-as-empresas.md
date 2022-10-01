@@ -3,6 +3,7 @@ title: 'Como melhorar o mercado de desenvolvimento, tanto para os devs bem como 
 type: round-table
 speakers:
   - Cyrille Grandval
+speakersPictures: []
 picture: /assets/images/schedule/cyrille-grandval.jpg
 linkedin: 
 twitter: 

@@ -3,6 +3,7 @@ title: 'O poder do Object Calisthenics no PHP'
 type: palestra
 speakers:
   - Joubert Guimarães de Assis
+speakersPictures: []
 picture: /assets/images/schedule/joubert-guimaraes-de-assis.jpg
 linkedin: 
 twitter: https://twitter.com/joubertredrat

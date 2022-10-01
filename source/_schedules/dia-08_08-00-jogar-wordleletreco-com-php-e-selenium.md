@@ -3,6 +3,7 @@ title: 'Jogar wordle/letreco com PHP e Selenium'
 type: palestra
 speakers:
   - Thiago Dantas Soares
+speakersPictures: []
 picture: /assets/images/schedule/thiago-dantas-soares.jpg
 linkedin: 
 twitter: 

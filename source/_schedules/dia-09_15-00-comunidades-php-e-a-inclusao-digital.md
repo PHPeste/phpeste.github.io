@@ -3,6 +3,7 @@ title: 'Comunidades PHP e a Inclusão Digital'
 type: round-table
 speakers:
   - Alessandro Feitoza
+speakersPictures: []
 picture: /assets/images/schedule/alessandro-feitoza.jpg
 linkedin: 
 twitter: https://twitter.com/feitozaAle

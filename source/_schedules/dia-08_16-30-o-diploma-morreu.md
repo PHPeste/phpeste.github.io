@@ -3,6 +3,7 @@ title: 'O diploma morreu?'
 type: palestra
 speakers:
   - Emmanuelle Richard
+speakersPictures: []
 picture: /assets/images/schedule/emmanuelle-richard.jpg
 linkedin: 
 twitter: 

@@ -3,6 +3,7 @@ title: 'Padrões de Microserviços'
 type: palestra
 speakers:
   - Rafael Neris
+speakersPictures: []
 picture: /assets/images/schedule/rafael-neris.jpg
 linkedin: 
 twitter: 

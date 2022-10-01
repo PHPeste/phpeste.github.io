@@ -3,6 +3,7 @@ title: 'Fazendo deploys pelo chat da sua live!'
 type: palestra
 speakers:
   - PokémãoBR
+speakersPictures: []
 picture: /assets/images/schedule/pokemaobr.png
 linkedin: 
 twitter: 

@@ -3,6 +3,7 @@ title: 'Encerramento'
 type: span
 speakers:
   - PHPeste
+speakersPictures: []
 picture: /assets/images/schedule/phpeste.jpg
 linkedin: 
 twitter: 

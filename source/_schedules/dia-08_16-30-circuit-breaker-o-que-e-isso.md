@@ -3,6 +3,7 @@ title: 'Circuit Breaker: O que é isso?'
 type: palestra
 speakers:
   - Daniel Rodrigues
+speakersPictures: []
 picture: /assets/images/schedule/daniel-rodrigues.jpg
 linkedin: https://www.linkedin.com/in/eusouodaniel
 twitter: 
