@@ -18,8 +18,8 @@ return [
         'diamond' => [
             'description' => 'Diamante',
         ],
-        'gold' => [
-            'description' => 'Ouro',
+        'silver' => [
+            'description' => 'Prata',
         ],
         'bronze' => [
             'description' => 'Bronze',
