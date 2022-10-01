@@ -3,6 +3,7 @@ title: 'Motivacional para iniciantes e aspirantes ao desenvolvimento com PHP'
 type: palestra
 speakers:
   - Emerson da Silva Martins
+speakersPictures: []
 picture: /assets/images/schedule/emerson-da-silva-martins.jpg
 linkedin: https://www.linkedin.com/in/emerson-martins-87b231114
 twitter: 

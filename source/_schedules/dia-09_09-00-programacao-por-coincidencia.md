@@ -3,6 +3,7 @@ title: 'Programação por coincidência'
 type: palestra
 speakers:
   - Nickolas Da Silva
+speakersPictures: []
 picture: /assets/images/schedule/nickolas-da-silva.jpg
 linkedin: nawarian
 twitter: nawarian

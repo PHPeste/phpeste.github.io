@@ -3,6 +3,7 @@ title: 'Escalabilidade de uma aplicação: Principais desafios, como escalar e i
 type: palestra
 speakers:
   - Daniel Rodrigues
+speakersPictures: []
 picture: /assets/images/schedule/daniel-rodrigues.jpg
 linkedin: https://www.linkedin.com/in/eusouodaniel
 twitter: 
