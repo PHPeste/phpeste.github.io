@@ -3,6 +3,7 @@ title: 'Do XGH Ao Scrum'
 type: palestra
 speakers:
   - Davidson Marques de Medeiros
+speakersPictures: []
 picture: /assets/images/schedule/davidson-marques-de-medeiros.jpg
 linkedin: 
 twitter: davidsonMarques

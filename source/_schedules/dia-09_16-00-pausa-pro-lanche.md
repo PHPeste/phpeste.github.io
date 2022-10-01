@@ -3,6 +3,7 @@ title: 'Pausa pro lanche'
 type: span
 speakers:
   - PHPeste
+speakersPictures: []
 picture: /assets/images/schedule/phpeste.jpg
 linkedin: 
 twitter: 

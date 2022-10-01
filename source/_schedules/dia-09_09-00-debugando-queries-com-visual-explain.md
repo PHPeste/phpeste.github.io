@@ -3,6 +3,7 @@ title: 'Debugando queries com Visual Explain'
 type: palestra
 speakers:
   - Leandro Pedrosa
+speakersPictures: []
 picture: /assets/images/schedule/leandro-pedrosa.jpg
 linkedin: 
 twitter: https://twitter.com/pedrosalpr

@@ -3,6 +3,7 @@ title: 'Introdução ao TDD'
 type: palestra
 speakers:
   - Sávio Henrique
+speakersPictures: []
 picture: /assets/images/schedule/savio-henrique.jpg
 linkedin: 
 twitter: Savioosilvaa
