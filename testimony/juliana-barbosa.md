@@ -1,0 +1,1 @@
+Foi incrível participar da organização de um evento tão importante! Conheci muitas pessoas maravilhosas da comunidade, aprendi vários conteúdos diferentes e fico feliz de saber que meu trabalho contribuiu positivamente para a comunidade. Até o próximo ano! 
