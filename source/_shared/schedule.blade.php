@@ -49,7 +49,7 @@ $dia3 = $sorted
                       <strong>{{ $event->title }}</strong>
                     @else
                       @if ($hasPicture)
-                        <img src="{{ $event->picture }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
+                        <img src="{{ url($event->picture) }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
                       @endif
                       <h5>{{ implode(', ', $event->speakers) }}</h5>
                       <small>Local: {{ Str::plural('sala', count($event->rooms)) }} {{ implode(', ', $event->rooms) }}</small> 
@@ -60,7 +60,7 @@ $dia3 = $sorted
                 @else
                   <td>
                     @if ($hasPicture)
-                      <img src="{{ $event->picture }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
+                      <img src="{{ url($event->picture) }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
                     @endif
                     <h5>{{ implode(', ', $event->speakers) }}</h5>
                     <small>Local: {{ Str::plural('sala', count($event->rooms)) }} {{ implode(', ', $event->rooms) }}</small> 
@@ -104,7 +104,7 @@ $dia3 = $sorted
                       <strong>{{ $event->title }}</strong>
                     @else
                       @if ($hasPicture)
-                        <img src="{{ $event->picture }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
+                        <img src="{{ url($event->picture) }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
                       @endif
                       <h5>{{ implode(', ', $event->speakers) }}</h5>
                       <small>Local: {{ Str::plural('sala', count($event->rooms)) }} {{ implode(', ', $event->rooms) }}</small> 
@@ -115,7 +115,7 @@ $dia3 = $sorted
                 @else
                   <td>
                     @if ($hasPicture)
-                      <img src="{{ $event->picture }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
+                      <img src="{{ url($event->picture) }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
                     @endif
                     <h5>{{ implode(', ', $event->speakers) }}</h5>
                     <small>Local: {{ Str::plural('sala', count($event->rooms)) }} {{ implode(', ', $event->rooms) }}</small> 
@@ -159,7 +159,7 @@ $dia3 = $sorted
                       <strong>{{ $event->title }}</strong>
                     @else
                       @if ($hasPicture)
-                        <img src="{{ $event->picture }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
+                        <img src="{{ url($event->picture) }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
                       @endif
                       <h5>{{ implode(', ', $event->speakers) }}</h5>
                       <small>Local: {{ Str::plural('sala', count($event->rooms)) }} {{ implode(', ', $event->rooms) }}</small> 
@@ -170,7 +170,7 @@ $dia3 = $sorted
                 @else
                   <td>
                     @if ($hasPicture)
-                      <img src="{{ $event->picture }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
+                      <img src="{{ url($event->picture) }}" class="img-thumbnail img-fluid rounded-circle" width="100"><br>
                     @endif
                     
                     <div>
