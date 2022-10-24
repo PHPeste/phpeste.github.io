@@ -4,7 +4,7 @@ first_name: Níckolas
 last_name: (nawarian)
 profession: Organizador
 website: https://codamos.com.br
-image: /assets/images/schedule/nickolas-da-silva.jpg
+image: assets/images/schedule/nickolas-da-silva.jpg
 social:
   Github: https://github.com/nawarian
   Twitter: https://twitter.com/nawarian

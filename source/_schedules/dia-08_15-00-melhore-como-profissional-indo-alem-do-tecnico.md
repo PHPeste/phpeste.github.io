@@ -4,7 +4,7 @@ type: round-table
 speakers:
   - Vinícius Campitelli
 speakersPictures: []
-picture: /assets/images/schedule/vinicius-campitelli.jpg
+picture: assets/images/schedule/vinicius-campitelli.jpg
 linkedin: 
 twitter: vcampitelli
 instagram: 

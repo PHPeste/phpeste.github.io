@@ -4,7 +4,7 @@ type: round-table
 speakers:
   - Cyrille Grandval
 speakersPictures: []
-picture: /assets/images/schedule/cyrille-grandval.jpg
+picture: assets/images/schedule/cyrille-grandval.jpg
 linkedin: 
 twitter: 
 instagram: 

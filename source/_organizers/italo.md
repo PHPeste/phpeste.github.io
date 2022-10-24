@@ -4,7 +4,7 @@ first_name: Ítalo Epifânio de Lima e Silva
 last_name: (itepifanio)
 profession: Organizador
 website: https://itepifanio.github.io/
-image: /assets/images/uploads/italo.jpg
+image: assets/images/uploads/italo.jpg
 social:
   Github: https://github.com/itepifanio
   Twitter: https://twitter.com/itepifanio
