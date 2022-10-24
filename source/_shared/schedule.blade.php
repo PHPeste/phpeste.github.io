@@ -175,7 +175,7 @@ $dia3 = $sorted
                     
                     <div>
                       @foreach ($event->speakersPictures as $picture)
-                        <img src="{{ $picture }}" class="img-thumbnail img-fluid rounded-circle" width="100">
+                        <img src="{{ url($picture) }}" class="img-thumbnail img-fluid rounded-circle" width="100">
                       @endforeach
                     </div>
 
