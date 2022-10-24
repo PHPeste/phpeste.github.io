@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - William Correa
 speakersPictures: []
-picture: assets/images/schedule/william-correa.jpg
+picture: /assets/images/schedule/william-correa.jpg
 linkedin: 
 twitter: 
 instagram: 

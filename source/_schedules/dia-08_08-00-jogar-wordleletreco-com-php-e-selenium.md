@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Thiago Dantas Soares
 speakersPictures: []
-picture: assets/images/schedule/thiago-dantas-soares.jpg
+picture: /assets/images/schedule/thiago-dantas-soares.jpg
 linkedin: 
 twitter: 
 instagram: dantas__thiago

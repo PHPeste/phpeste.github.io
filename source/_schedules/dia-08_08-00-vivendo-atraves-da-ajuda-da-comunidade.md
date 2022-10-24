@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - PokémãoBR
 speakersPictures: []
-picture: assets/images/schedule/pokemaobr.png
+picture: /assets/images/schedule/pokemaobr.png
 linkedin: 
 twitter: 
 instagram: 

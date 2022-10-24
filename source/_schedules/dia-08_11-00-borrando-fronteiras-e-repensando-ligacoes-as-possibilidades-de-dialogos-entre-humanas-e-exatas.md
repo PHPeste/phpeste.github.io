@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Ana Eliza
 speakersPictures: []
-picture: assets/images/schedule/ana-eliza.jpg
+picture: /assets/images/schedule/ana-eliza.jpg
 linkedin: 
 twitter: 
 instagram: 

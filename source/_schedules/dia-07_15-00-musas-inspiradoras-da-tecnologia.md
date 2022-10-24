@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Alice Richard
 speakersPictures: []
-picture: assets/images/schedule/alice.jpg
+picture: /assets/images/schedule/alice.jpg
 linkedin: 
 twitter: 
 instagram: 
