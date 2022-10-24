@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Anne Caroline
 speakersPictures: []
-picture: assets/images/schedule/anne-caroline-rodrigues-pereira.jpg
+picture: /assets/images/schedule/anne-caroline-rodrigues-pereira.jpg
 linkedin: 
 twitter: 
 instagram: carol_rodrigues_p

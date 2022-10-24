@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="site-blocks-cover overlay" 
-     style="background-image: url(assets/images/background.jpg);" 
+     style="background-image: url(/assets/images/background.jpg);" 
      data-aos="fade" 
      data-stellar-background-ratio="0.5"
 >

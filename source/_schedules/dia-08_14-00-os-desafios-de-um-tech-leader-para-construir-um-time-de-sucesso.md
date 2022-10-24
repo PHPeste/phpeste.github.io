@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Luiz Siqueira
 speakersPictures: []
-picture: assets/images/schedule/luiz-claudio-siqueira-da-silva.jpg
+picture: /assets/images/schedule/luiz-claudio-siqueira-da-silva.jpg
 linkedin: 
 twitter: 
 instagram: https://www.instagram.com/luizsiqueira.s/

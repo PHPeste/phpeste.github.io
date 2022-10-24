@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Rafael Neris
 speakersPictures: []
-picture: assets/images/schedule/rafael-neris.jpg
+picture: /assets/images/schedule/rafael-neris.jpg
 linkedin: 
 twitter: 
 instagram: 

@@ -4,8 +4,8 @@ type: palestra
 speakers:
   - Jilcimar Fernandes
   - Paulo Victor
-speakersPictures: ['assets/images/schedule/jilcimar-fernandes.jpeg', 'assets/images/schedule/paulo-victor.jpg']
-picture: assets/images/schedule/jilcimar-da-silva-fernandes-e-paulo-victor-de-azevedo-guerra.jpg
+speakersPictures: ['/assets/images/schedule/jilcimar-fernandes.jpeg', '/assets/images/schedule/paulo-victor.jpg']
+picture: /assets/images/schedule/jilcimar-da-silva-fernandes-e-paulo-victor-de-azevedo-guerra.jpg
 linkedin: 
 twitter: 
 instagram: 

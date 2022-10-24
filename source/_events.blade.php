@@ -13,7 +13,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_1.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_1.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -24,7 +24,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_2.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_2.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -35,7 +35,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_3.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_3.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -46,7 +46,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_1.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_1.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -57,7 +57,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_2.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_2.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -68,7 +68,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_3.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_3.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -79,7 +79,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_1.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_1.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -90,7 +90,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_2.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_2.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -101,7 +101,7 @@
             <div class="media-with-text">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="assets/images/img_3.jpg" alt="" class="img-fluid">
+                  <img src="/assets/images/img_3.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>

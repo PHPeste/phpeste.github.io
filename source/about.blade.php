@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('content')
-<div class="site-blocks-cover overlay" style="background-image: url(assets/images/about/header.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+<div class="site-blocks-cover overlay" style="background-image: url(/assets/images/about/header.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-10 text-center" data-aos="fade">
@@ -16,7 +16,7 @@
         
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-4">
-            <img src="assets/images/img_4.jpg" alt="Image" class="img-fluid">
+            <img src="/assets/images/img_4.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-5 col-lg-5 ml-auto">
             <h2 class="font-weight-bold text-uppercase display-3">O PHPeste</h2>
@@ -40,7 +40,7 @@
         
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-6 mb-4 order-md-2">
-            <img src="assets/images/img_2.jpg" alt="Image" class="img-fluid">
+            <img src="/assets/images/img_2.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-5 col-lg-5 mr-auto order-md-1">
             <h2 class="font-weight-bold text-uppercase display-3"><span class="d-block">Comunidades</span> </h2>
@@ -65,46 +65,46 @@
         <div class="row">
             <div class="col-6 col-md-6 col-lg-4">
               <a href="http://phppe.net" target="_blank">
-                <img src="assets/images/comunidades/php-pe.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/php-pe.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="php-pb.net" target="_blank">
-                <img src="assets/images/comunidades/php-pb.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/php-pb.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="http://phpba.com.br" target="_blank">
-                <img src="assets/images/comunidades/php-ba.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/php-ba.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="https://phpcomrapadura.org" target="_blank">
-                <img src="assets/images/comunidades/php-com-rapadura.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/php-com-rapadura.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="https://phpsp.org.br" target="_blank">
-                <img src="assets/images/comunidades/php-sp.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/php-sp.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="https://phpmaranhao.com.br" target="_blank">
-                <img src="assets/images/comunidades/php-ma.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/php-ma.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="https://twitter.com/phprn" target="_blank">
-              <img src="assets/images/comunidades/php-rn.jpg" alt="Image" class="img-fluid">
+              <img src="/assets/images/comunidades/php-rn.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="https://phprs.com.br" target="_blank">
-                <img src="assets/images/comunidades/php-rs.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/php-rs.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
               <a href="https://codar.app" target="_blank">
-                <img src="assets/images/comunidades/onde-codar.jpg" alt="Image" class="img-fluid">
+                <img src="/assets/images/comunidades/onde-codar.jpg" alt="Image" class="img-fluid">
               </a>
             </div>
           </div>
@@ -133,7 +133,7 @@
                                 @foreach ($organizer->social ?? [] as $key => $item)
                                   <li>
                                     <a href="{{ $item }}" alt="{{ $key }}" target="_new">
-                                      <img src="{{ 'assets/images/' . strtolower($key) . '.png' }}" />
+                                      <img src="{{ '/assets/images/' . strtolower($key) . '.png' }}" />
                                     </a>
                                   </li>
                                 @endforeach

@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Emmanuelle Richard
 speakersPictures: []
-picture: assets/images/schedule/emmanuelle-richard.jpg
+picture: /assets/images/schedule/emmanuelle-richard.jpg
 linkedin: 
 twitter: 
 instagram: https://www.instagram.com/manu_richard/

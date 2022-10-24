@@ -4,7 +4,7 @@ first_name: Jean
 last_name: Jar
 profession: Organizador
 website: https://jeanjar.github.io/
-image: assets/images/uploads/jean.jpg
+image: /assets/images/uploads/jean.jpg
 social:
   Github: https://github.com/jeanjar
   Twitter: https://twitter.com/jean_jar

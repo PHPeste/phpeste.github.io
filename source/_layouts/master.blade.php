@@ -26,7 +26,7 @@
       gtag('config', 'UA-65548481-8');
     </script>
     <link rel="manifest" href="/manifest.json" />
-    <link rel="stylesheet" href="assets/build/css/main.css" />
+    <link rel="stylesheet" href="/assets/build/css/main.css" />
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];

@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Mateus Guimarães
 speakersPictures: []
-picture: assets/images/schedule/mateus-guimaraes.jpg
+picture: /assets/images/schedule/mateus-guimaraes.jpg
 linkedin: 
 twitter: https://twitter.com/mateusjatenee
 instagram: https://instagram.com/mateusjatenee
