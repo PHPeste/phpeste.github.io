@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('content')
-    <div class="site-blocks-cover overlay" style="background-image: url(/assets/images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover overlay" style="background-image: url({{ url('/assets/images/hero_1.jpg') }});" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-10 text-center" data-aos="fade">
@@ -17,7 +17,7 @@
         
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-4">
-            <img src="/assets/images/hero_1.jpg" alt="Image" class="img-fluid">
+            <img src="{{ url('/assets/images/hero_1.jpg') }}" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-5 col-lg-5 ml-auto">
             <h2 class="font-weight-bold text-uppercase display-3"><span class="d-block">Recife</span> Pernambuco</h2>

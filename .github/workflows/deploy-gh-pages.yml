@@ -1,5 +1,8 @@
 name: Build & Publish
 
+env:
+  GHPAGE: true
+
 on:
   push:
     branches:

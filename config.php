@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'root' => __DIR__,
-    'baseUrl' => '',
+    'baseUrl' => getenv('GHPAGE') ? 'https://phprn.github.io/phpeste' : '',
     'event_name' => 'PHPeste',
     'event_ticket' => 'https://outgo.com.br/ph-peste',
     'event_ticket_cta' => '👉 Garanta sua vaga! 👈',
