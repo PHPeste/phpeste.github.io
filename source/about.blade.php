@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-10 text-center" data-aos="fade">
-            <h1 class="mb-4">A conferênciaaaa</h1>
+            <h1 class="mb-4">A conferência</h1>
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@
                 @foreach ($organizers as $organizer)
                     <div class="col-md-6 col-lg-3 col-sm-12 mb-2">
                         <div class="organizer text-left">
-                            <img src="{{ $organizer->image }}" alt="Foto de {{ $organizer->first_name }}" class="img-fluid">
+                            <img src="{{ url($organizer->image) }}" alt="Foto de {{ $organizer->first_name }}" class="img-fluid">
                             <h3 class="heading mb-0 mt-6">
                               <a href="{{ $organizer->website }}" target="_new">
                                 <span>{{ $organizer->first_name }}</span> {{ $organizer->last_name }}
