@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Lucas Vinicius
 speakersPictures: []
-picture: /assets/images/schedule/lucas-vinicius.png
+picture: assets/images/schedule/lucas-vinicius.png
 linkedin: 
 twitter: 
 instagram: 

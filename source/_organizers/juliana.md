@@ -4,7 +4,7 @@ first_name: Juliana Barbosa
 last_name: dos Santos
 profession: Organizadora
 website: '#'
-image: /assets/images/uploads/juliana.jpg
+image: assets/images/uploads/juliana.jpg
 social:
   Github: https://github.com/julianaabs
   LinkedIn: https://www.linkedin.com/in/juliana-barbosa-dos-santos-11085514a/

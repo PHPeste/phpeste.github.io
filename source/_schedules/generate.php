@@ -43,7 +43,7 @@ $entries = [
     ['2022-10-08 17:30', [1], 'Encerramento', 'span', ['PHPeste'], [], null, null, null],
 
     ['2022-10-09 08:00', [6], 'Do XGH Ao Scrum', 'palestra', ['Davidson Marques de Medeiros'], [], 'davidsonMarques', null, 'davidsonmarquesm'],
-    ['2022-10-09 08:00', [1], 'Laravel Clean Code, Táticas', 'palestra', ['Jilcimar da Silva Fernandes', 'Paulo Victor de Azevedo Guerra'], ['/assets/images/schedule/jilcimar-fernandes.jpeg', '/assets/images/schedule/paulo-victor.jpg'], null, null, null],
+    ['2022-10-09 08:00', [1], 'Laravel Clean Code, Táticas', 'palestra', ['Jilcimar da Silva Fernandes', 'Paulo Victor de Azevedo Guerra'], ['assets/images/schedule/jilcimar-fernandes.jpeg', 'assets/images/schedule/paulo-victor.jpg'], null, null, null],
     ['2022-10-09 08:00', [2, 3], 'Padrões de Microserviços', 'palestra', ['Rafael Neris'], [], null, null, null],
 
     ['2022-10-09 09:00', [2, 3], 'Como proteger o seu legado', 'palestra', ['Nickolas Da Silva'], [], 'nawarian', 'nawarian', null],
@@ -82,7 +82,7 @@ foreach ($entries as $entry) {
     speakers:
       - {$speakersStr}
     speakersPictures: {$speakersPictures}
-    picture: /assets/images/schedule/{$image}.jpg
+    picture: assets/images/schedule/{$image}.jpg
     linkedin: {$linkedin}
     twitter: {$twitter}
     instagram: {$instagram}

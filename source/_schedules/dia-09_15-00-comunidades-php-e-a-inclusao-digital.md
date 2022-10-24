@@ -4,7 +4,7 @@ type: round-table
 speakers:
   - Alessandro Feitoza
 speakersPictures: []
-picture: /assets/images/schedule/alessandro-feitoza.jpg
+picture: assets/images/schedule/alessandro-feitoza.jpg
 linkedin: 
 twitter: https://twitter.com/feitozaAle
 instagram: https://www.instagram.com/alessandro_feitoza

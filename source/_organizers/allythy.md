@@ -4,7 +4,7 @@ first_name: Allythy
 last_name: Rennan
 profession: Organizador
 website: "https://allythy.github.io/"
-image: /assets/images/uploads/allythy.jpg
+image: assets/images/uploads/allythy.jpg
 social:
   Github: "https://github.com/allythy"
   LinkedIn: https://www.linkedin.com/in/allythy/

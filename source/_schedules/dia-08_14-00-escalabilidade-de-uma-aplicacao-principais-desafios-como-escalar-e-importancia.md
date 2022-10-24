@@ -4,7 +4,7 @@ type: palestra
 speakers:
   - Daniel Rodrigues
 speakersPictures: []
-picture: /assets/images/schedule/daniel-rodrigues.jpg
+picture: assets/images/schedule/daniel-rodrigues.jpg
 linkedin: https://www.linkedin.com/in/eusouodaniel
 twitter: 
 instagram: 
