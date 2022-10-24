@@ -4,15 +4,15 @@
       <div class="col-md-4">
         <h3 class="footer-heading mb-4 text-white">Sobre</h3>
         <p>O PHPeste visa reunir os desenvolvedores, estudantes, entusiastas, e amantes da linguagem de programação PHP, não só do Brasil, mas do mundo.</p>
-        <p><a href="/about" class="btn btn-primary pill text-white px-4">Leia mais</a></p>
+        <p><a href="{{ url('/about') }}" class="btn btn-primary pill text-white px-4">Leia mais</a></p>
       </div>
       <div class="col-md-6">
         <div class="row">
           <div class="col-md-6">
             <h3 class="footer-heading mb-4 text-white">Menu Rápido</h3>
               <ul class="list-unstyled">
-                <li><a href="/about">Sobre</a></li>
-                <li><a href="/sponsors">Patrocinadores</a></li>
+                <li><a href="{{ url('/about') }}">Sobre</a></li>
+                <li><a href="{{ url('/sponsors') }}">Patrocinadores</a></li>
                 <li><a href="{{ $page->event_ticket ?? '#' }}">Ingressos</a></li>
                 <!-- <li><a href="/speakers">Palestrantes</a></li> -->
                 <!-- <li><a href="https://www.depassaporte.com.br/phpeste" target="_blank">Passagens aéreas</a></li> -->
@@ -21,10 +21,10 @@
             <div class="col-md-6">
               <h3 class="footer-heading mb-4 text-white">&nbsp;</h3>
               <ul class="list-unstyled">
-                <li><a href="/contact">Contato</a></li>
+                <li><a href="{{ url('/contact') }}">Contato</a></li>
                 <!-- <li><a href="https://loja.phpeste.net/produtos/index/workshop">Workshops</a></li> -->
                 <!-- <li><a href="/programming">Programação</a></li> -->
-                <li><a href="/contact">Seja um patrocinador</a></li>
+                <li><a href="{{ url('/contact') }}">Seja um patrocinador</a></li>
               </ul>
           </div>
         </div>

@@ -14,10 +14,10 @@
         <div class="col-12 col-md-6 col-lg-6 sponsor">
           @if($sponsor->website)
             <a href="{{ $sponsor->website }}" target="_blank" class="btn">
-              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+              <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
             </a>
           @else
-            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
           @endif
         </div>
       @endforeach
@@ -31,10 +31,10 @@
         <div class="col-6 col-md-4 col-lg-4 sponsor">
           @if($sponsor->website)
             <a href="{{ $sponsor->website }}" target="_blank" class="btn">
-              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+              <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
             </a>
           @else
-            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
           @endif
         </div>
       @endforeach
@@ -48,10 +48,10 @@
         <div class="col-4 col-md-2 col-lg-2 sponsor">
           @if($sponsor->website)
             <a href="{{ $sponsor->website }}" target="_blank" class="btn">
-              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+              <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
             </a>
           @else
-            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
           @endif
         </div>
       @endforeach
@@ -72,10 +72,10 @@
         <div class="col-4 col-md-2 col-lg-2 sponsor">
           @if($sponsor->website)
             <a href="{{ $sponsor->website }}" target="_blank" class="btn">
-              <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+              <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
             </a>
           @else
-            <img src="{{ $sponsor->image }}" alt="{{ $sponsor->name }}" class="img-fluid">
+            <img src="{{ url($sponsor->image) }}" alt="{{ $sponsor->name }}" class="img-fluid">
           @endif
         </div>
       @endforeach
