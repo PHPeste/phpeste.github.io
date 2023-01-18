@@ -8,7 +8,7 @@ return [
     'event_ticket' => 'mailto:contato@phpeste.org',
     'event_ticket_cta' => '🤔 Dúvidas? Entre em contato! 📢',
     'event_location' => 'SEBRAE - Natal/RN',
-    'event_period' => '7, 8 e 9 de outubro',
+    'event_period' => '6, 7 e 8 de outubro',
     'event_contact_email' => 'contato@phpeste.org',
     'event_facebook' => '',
     'event_twitter' => 'https://twitter.com/phpestene',
