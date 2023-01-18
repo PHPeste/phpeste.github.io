@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    @include('_shared.sponsors', ['title' => 'Grandes empresas'])
+    @include('_shared.sponsors')
 
     @include('_shared.block-images', ['image1' => 'images/img_4.jpg', 'image2' => 'images/img_3.jpg'])
 
