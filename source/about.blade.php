@@ -21,13 +21,12 @@
           <div class="col-md-5 col-lg-5 ml-auto">
             <h2 class="font-weight-bold text-uppercase display-3">O PHPeste</h2>
             <p>
-                PHPeste é uma conferência de PHP organizada pelas comunidades “cabra 
-                da peste” do nordeste brasileiro. O evento já passou por João Pessoa (PB), 
-                Salvador (BA), Fortaleza(CE), São Luis(MA), Recife(PE) e agora é a vez de 
-                Natal(RN) sediar um dos maiores eventos de PHP do Brasil. Serão 3 dias de 
-                muito aprendizado, muita mão na massa e, principalmente, de gente “arretada 
-                da peste” que irá ampliar ainda mais seu networking. O evento contará com 
-                a participação de palestrantes de altíssimo nível e minicursos práticos.
+                PHPeste é uma conferência de PHP organizada pelas comunidades “cabra da peste” do nordeste brasileiro.
+                O evento já passou por João Pessoa (PB), Salvador (BA), Fortaleza(CE),
+                São Luis(MA), Recife(PE), Natal(RN) e agora volta a Fortaleza(CE).
+                Serão 3 dias de muito aprendizado, muita mão na massa e, principalmente,
+                de gente “arretada da peste” que irá ampliar ainda mais seu networking.
+                O evento contará com a participação de palestrantes de altíssimo nível e minicursos práticos.
             </p>
           </div>
           
