@@ -7,7 +7,7 @@ return [
     'event_name' => 'PHPeste',
     'event_ticket' => 'mailto:contato@phpeste.org',
     'event_ticket_cta' => '🤔 Dúvidas? Entre em contato! 📢',
-    'event_location' => 'SEBRAE - Natal/RN',
+    'event_location' => 'Fortaleza/CE',
     'event_period' => '6, 7 e 8 de outubro',
     'event_contact_email' => 'contato@phpeste.org',
     'event_facebook' => '',

@@ -46,13 +46,13 @@ setTimeout(function() {
             <p class="mb-5">
                 A conferência é organizada pelas comunidades dos estados nordestinos: 
                 Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande 
-                do Norte e Sergipe. Dessa vez a Comunidade PHP-RN está a 
+                do Norte e Sergipe. Dessa vez a Comunidade PHP com Rapadura está a 
                 frente da organização, e como a conferência é executada exclusivamente por 
                 membros voluntários das comunidades os custos são minimizados para manter 
                 os preços dos ingressos o mais baixo possível. Dessa
                 forma, fazer um evento mais acessível.
             </p>
-            <a href="http://bit.ly/2GIYBdJ" target="_blank" class="btn btn-primary px-4 py-2">Saiba mais em nossa apresentação</a>
+            <a href="/assets/images/midia/Midia_Kit_Completo_PT_BR.pdf" target="_blank" class="btn btn-primary px-4 py-2">Saiba mais em nossa apresentação</a>
           </div>
         </div>
       </div>
