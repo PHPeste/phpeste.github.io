@@ -26,7 +26,7 @@
                       <li><a href="{{ $page->event_ticket }}" class="btn btn-primary px-4 py-2" style="color: #fff"  target="_blank">{{ $page->event_ticket_cta }}</a></li>
                       <li><a href="{{ url('/') }}">Home</a></li>
                       <li class="{{ $page->selected('about') }}"><a href="{{ url('/about') }}">Sobre</a></li>
-                      <li><a href="{{ url('/schedules') }}">Programação</a></li>
+                      <!-- <li><a href="{{ url('/schedules') }}">Programação</a></li> -->
                       <!-- <li><a href="https://loja.phpeste.net/produtos/index/workshop">Workshops</a></li> -->
                       <!-- <li class="{{ $page->selected('speakers') }}"><a href="/speakers">Palestrantes</a></li> -->
                       <li class="{{ $page->selected('sponsors') }}"><a href="{{ url('/sponsors') }}">Patrocinadores</a></li>

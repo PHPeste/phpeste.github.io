@@ -6,38 +6,27 @@ headerImage: /assets/images/code-of-conduct/header.png
 ---
 # Código de Conduta PHPeste
 
-O PHPeste está comprometido em ser uma comunidade livre de discriminação para todos, independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião.
-Não será tolerado, sob nenhuma circunstância, o constrangimento de participantes em eventos e canais de comunicação organizados pela comunidade.
+A Conferência PHPeste está comprometida a ser livre de discriminação para todos, independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião. Não será tolerado, sob nenhuma circunstância, o constrangimento de participantes em eventos e canais organizados pela comunidade. Linguagem e/ou exposição de imagens sexuais ou de cunho discriminatório não serão apropriadas no âmbito de nossa comunidade - isto inclui os eventos, as palestras, apresentações, exemplos e demonstrações, site, e-mails, chat e quaisquer outro canal da comunidade. Os participantes que violarem essas regras podem ser repreendidos ou expulsos do canal e/ou evento sem direito a reembolso, a critério da organização. Entendemos como assédio e constrangimento:
+Comentários que reforçam estruturas sociais de dominação, sejam relacionados a gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião;
 
-Linguagem e/ou exposição de imagens sexuais ou de cunho discriminatório não serão apropriadas no âmbito de nossa comunidade - isto inclui os eventos, as palestras, apresentações, exemplos ou demonstrações, site, emails, chats e quaisquer outro canal da comunidade.
+* Imagens sexuais em espaços públicos;
+* Comentários de cunho sexual;
+* Intimidação intencional;
+* Perseguição;
+* Obtenção de som ou imagem constrangedores;
+* Interrupção continuada e intencional de palestras e/ou eventos paralelos;
+* Contato físico inapropriado; atenção sexual não solicitada;
 
-Os participantes que violarem estas regras podem ser repreendidos ou expulsos do canal e/ou evento sem direito a reembolso, a critério da organização.
+Se você estiver sendo assediado(a) ou se sentir constrangido(a), ou perceber alguém nesta condição, ou se tiver qualquer preocupação a respeito deste tema, não deixe de contatar um dos evangelistas da comunidade imediatamente. As pessoas responsáveis pela organização em eventos serão apresentadas ao início dos eventos e podem ser facilmente identificadas por camisetas e/ou crachás. Nos canais oficiais da comunidade procure um dos evangelistas da comunidade. Embora o desejo seja de que isso não venha a ser necessário, caso seja preciso a organização ajudará os participantes no contato com a segurança do local ou com a polícia ou mesmo providenciando escolta. Faremos o possível para que todos sintam-se confortáveis e seguros.
 
-Entendemos como assédio e constrangimento:
+Contamos com sua compreensão e participação.
 
-* comentários que reforçam estruturas sociais de dominação, sejam relacionados a gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião;
-* imagens sexuais em espaços públicos ou privados; 
-* intimidação intencional; 
-* perseguição;
-* obtenção de som ou imagem constrangedores;
-* interrupção continuada e intencional de palestras e/ou eventos paralelos;
-* contato físico inapropriado; atenção sexual não solicitada;
+* Contato: contato@phpeste.org
+* Polícia: 190
+* Central de Atendimento à Mulher: 180
+* SAMU: 192
 
-Aproveitem saudavelmente a comunidade!
+Esperamos que todos os participantes sigam estas recomendações em todos os locais onde a PHP com Rapadura estiver levando um evento.
+Créditos e fonte original: PHPSP
 
-Antes de postar ou interagir, LEIA COM ATENÇÃO todas as regras da comunidade #PHPeste.
-Caso a sua publicação não apareça no grupo, provavelmente ela infringiu uma das regras listadas abaixo.
-
-1- RESPEITO: Tenha cuidado com sua mensagem, veja se ela não vai assediar e/ou desrespeitar alguém. 
-
-2- CONTEÚDO: Poste apenas conteúdo que possua, de alguma forma, relação com o assunto abordado pela comunidade ou alguma ferramenta envolvendo as tecnologias. Assuntos fora do contexto serão deletados e o membro notificado. Havendo persistência, o autor do anúncio será banido deste grupo sem aviso prévio. 
-
-3- CLAREZA: Preze pela objetividade e clareza nas informações do seu post. 
-
-4- CÓDIGOS: Caso o seu post possua códigos, faz-se o uso do CodePen(http://codepen.io/pen/), JSBin(http://jsbin.com/) ou JSFiddle(http://jsfiddle.net/) ou até mesmo o Github(https://github.com/) para demonstrá-los no grupo.
-
-5- ORGANIZAÇÃO: Para garantir a sanidade e boa organização do grupo, adicione o tipo de post antes da postagem caso sinta a necessidade de categoriza seu post. Por exemplo: \[OFF], \[EVENTO], \[VAGA], \[DÚVIDA].
-
-6- ANÚNCIOS: Não serão permitidos anúncios de compra e venda de produtos. Também não serão aceitos sites hacks ou links de templates pagos, plugins e etc, pirataria é crime. Havendo persistência, o autor do anúncio será banido deste grupo sem aviso prévio.
-
-7- DENÚNCIA: Caso alguma publicação vá contra as regras aqui mencionadas, favor marcar o nome dos admins e/ou marcar como "Denunciar/Spam".
+# Aproveitem saudavelmente o evento!

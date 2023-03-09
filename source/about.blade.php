@@ -17,6 +17,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-4">
             <img src="{{ url('/assets/images/img_4.jpg') }}" alt="Image" class="img-fluid">
+            <span>Foto da edição 2017 realizada em Fortaleza - CE.</span>
           </div>
           <div class="col-md-5 col-lg-5 ml-auto">
             <h2 class="font-weight-bold text-uppercase display-3">O PHPeste</h2>
@@ -40,13 +41,14 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-6 mb-4 order-md-2">
             <img src="{{ url('/assets/images/img_2.jpg') }}" alt="Image" class="img-fluid">
+            <span>Na foto Rasmus Lerdoff, criador da linguagem de programação PHP.</span>
           </div>
           <div class="col-md-5 col-lg-5 mr-auto order-md-1">
             <h2 class="font-weight-bold text-uppercase display-3"><span class="d-block">Comunidades</span> </h2>
             <p>
                 A conferência é organizada pelas comunidades dos estados nordestinos: 
                 Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande 
-                do Norte e Sergipe. Dessa vez a Comunidade PHP-RN está a 
+                do Norte e Sergipe. Dessa vez a Comunidade PHP com Rapadura está a 
                 frente da organização, e como a conferência é executada exclusivamente por 
                 membros voluntários das comunidades os custos são minimizados para manter 
                 os preços dos ingressos o mais baixo possível. Dessa
