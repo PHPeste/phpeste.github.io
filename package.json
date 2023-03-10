@@ -1,5 +1,5 @@
 {
-    "homepage": "https://phprn.github.io/phpeste",
+    "homepage": "https://phpeste.github.io/",
     "private": true,
     "scripts": {
         "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
