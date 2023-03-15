@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'root' => __DIR__,
-    'baseUrl' => getenv('GHPAGE') == true ? 'https://phpeste.github.io/' : '',
+    'baseUrl' => getenv('GHPAGE') == true ? 'https://www.phpeste.org/' : '',
     'event_name' => 'PHPeste',
     'event_ticket' => 'mailto:contato@phpeste.org',
     'event_ticket_cta' => '🤔 Dúvidas? Entre em contato! 📢',
