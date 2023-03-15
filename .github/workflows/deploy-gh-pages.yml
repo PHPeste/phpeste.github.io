@@ -18,9 +18,9 @@ jobs:
     - name: Install NPM Dependencies
       run: npm install
     - name: Build Site
-      run: npm run production
+      run: composer build
     - name: Stage Files
-      run: git add -f build_production
+      run: git add -f build_local
     - name: Commit files
       run: |
         git config --local user.email "actions@github.com"
