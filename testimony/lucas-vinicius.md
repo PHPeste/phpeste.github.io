@@ -1,1 +1,0 @@
-Um grande sucesso! Foi muito bom ver a energia e a força da comunidade de PHP no RN. ❤️

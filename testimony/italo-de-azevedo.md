@@ -1,1 +1,0 @@
-Queria agradecer muito a todos os responsáveis e palestrantes por esse evento maravilhoso que foi a edição 2022 do phpeste, aprendi bastante coisa nova que nunca tinha ouvido falar antes e tenho certeza que foi muito produtivo para todos que participaram. Muito obrigado 💙🐘
