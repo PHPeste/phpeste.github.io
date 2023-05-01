@@ -1,0 +1,78 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #5B1E00;
+  z-index: 1000;
+  align-items: center;
+}
+
+p {
+  line-height: 3rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+  
+}
+
+.parallax-container {
+  min-height: 1024px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+    font-family: 'Lexend', sans-serif;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 100%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #5B1E00;
+}
+.text-brown{
+  color: #5B1E00 !important;
+}
+#loading {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f2f3;
+  background-image: url("../images/loader/loader-perainda-2.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
