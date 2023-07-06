@@ -76,3 +76,17 @@ footer.page-footer {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.accordion-button{
+  background-color: #ffffff !important;
+  font-family: 'Lexend', sans-serif;
+}
+
+.accordion-collapse{
+  color: #5b1e00 !important;
+}
+
+.accordion-button:not(.collapsed){
+  color: #5b1e00 !important;
+}
+
