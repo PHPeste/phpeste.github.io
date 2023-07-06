@@ -30,7 +30,6 @@
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 
@@ -450,93 +449,36 @@
             <br><br>
             <h3 class="center brown-text">Perguntas frequentes (FAQ)</h3>
             <br>
-              <div class="accordion" id="FAQ">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      1 - Como faço para me inscrever no evento?
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#FAQ">
-                    <div class="accordion-body">
-                      Inscrições estarão disponíveis em agosto de 2023
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      2 - Quem pode participar do evento?
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#FAQ">
-                    <div class="accordion-body">
-                      PHPeste é uma conferência para quem deseja conhecer e aprofundar seus conhecimentos na linguagem de programação PHP. <br> Não importa se você é iniciante ou sênior. Este evento é para você!
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      3 - Tenho direito a certificado?
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#FAQ">
-                    <div class="accordion-body">
-                      Sim, desde que você tenha feito check-in. O certificado será encaminhado em até 48h após o encerramento do evento por e-mail.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      4 - Terei direito a almoço no evento?
-                    </button>
-                  </h2>
-                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#FAQ">
-                    <div class="accordion-body">
-                      Não. O almoço será por conta de cada participante. Haverá um horário livre para o almoço.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      5 - Haverá estacionamento no local?
-                    </button>
-                  </h2>
-                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#FAQ">
-                    <div class="accordion-body">
-                      Não, cada participante deverá se responsabilizar pela escolha de estacionamento na rua ou privado na redondezas do local do evento.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                      6 - Poderei fazer a inscrição no dia do evento direto no local?
-                    </button>
-                  </h2>
-                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#FAQ">
-                    <div class="accordion-body">
-                      A quantidade de lugares é limitada, por isso não garantimos a inscrição no dia do evento.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                      7 - Como entrar em contato com a organização?
-                    </button>
-                  </h2>
-                  <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#FAQ">
-                    <div class="accordion-body">
-                      Se você ou a sua empresa quer patrocinar a conferência, vem falar com a gente através do contato@phpeste.org
-                    </div>
-                  </div>
-                </div>
-              </div>
-                        
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">1 - Como faço para me inscrever no evento?</div>
+                <div class="collapsible-body"><span> Inscrições estarão disponíveis em agosto de 2023</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">2 - Quem pode participar do evento?</div>
+                <div class="collapsible-body"><span>PHPeste é uma conferência para quem deseja conhecer e aprofundar seus conhecimentos na linguagem de programação PHP. Não importa se você é iniciante ou sênior. Este evento é para você!</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">3 - Tenho direito a certificado?</div>
+                <div class="collapsible-body"><span>Sim, desde que você tenha feito check-in. O certificado será encaminhado em até 48h após o encerramento do evento por e-mail.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">4 - Terei direito a almoço no evento?</div>
+                <div class="collapsible-body"><span>Não. O almoço será por conta de cada participante. Haverá um horário livre para o almoço.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">5 - Haverá estacionamento no local?</div>
+                <div class="collapsible-body"><span>Não, cada participante deverá se responsabilizar pela escolha de estacionamento na rua ou privado na redondezas do local do evento.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">6 - Poderei fazer a inscrição no dia do evento direto no local?</div>
+                <div class="collapsible-body"><span>A quantidade de lugares é limitada, por isso não garantimos a inscrição no dia do evento.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">7 - Como entrar em contato com a organização?</div>
+                <div class="collapsible-body"><span>Se você ou a sua empresa quer patrocinar a conferência, vem falar com a gente através do contato@phpeste.org</span></div>
+              </li>
+            </ul>          
             <br><br><br><br>
             <h3 class="center brown-text">Aproveitem saudavelmente o evento!</h3>
           </div>
@@ -583,11 +525,10 @@
   </div>
 
   <!--  Scripts-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/Faq.js"></script>
 
 </body>
 <script>
