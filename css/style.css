@@ -77,4 +77,28 @@ footer.page-footer {
   background-position: center;
 }
 
+#img-speakers {
+  border-radius: 150px;
+  border: #795548 solid 5px;
+}
+
+.span-speaker{
+  background-color: #ecc050;
+  color: #FFF;
+  border-radius: 5px;
+  border: #ecc050 solid 5px;
+}
+
+.span-speaker-default{
+  background-color: #795548;
+  color: #FFF;
+  border-radius: 5px;
+  border: #795548 solid 5px;
+}
+
+#card-speaker{
+  padding: 10px;
+  border-radius: 10px;
+}
+
 
