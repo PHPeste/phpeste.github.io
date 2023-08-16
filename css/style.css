@@ -101,4 +101,32 @@ footer.page-footer {
   border-radius: 10px;
 }
 
+.collapsible li {
+  font-size: 20px; 
+}
 
+#day1, #day2, th{
+  font-size: 18px;
+}
+
+#day1, #day2, td{
+  font-size: 16px;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+ 
+  color: #5B1E00;
+}
+
+.tabs .tab a {
+ font-size: 20px;
+  color: #000000;
+}
+
+.tabs .indicator {
+  background-color: #5B1E00;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+     background-color: rgb(255, 255, 255) !important;
+}
