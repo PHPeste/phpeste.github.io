@@ -144,6 +144,16 @@ footer.page-footer {
   font-size: 18px;
 }
 
+#card-sponsor{
+  padding: 10px;
+  border-radius: 10px;
+}
 
+.span-sponsor-silver{
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 5px;
+  border: #e0e0e0 solid 5px;
+}
 
 
