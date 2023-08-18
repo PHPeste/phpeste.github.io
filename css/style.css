@@ -105,17 +105,20 @@ footer.page-footer {
   font-size: 20px; 
 }
 
-#day1, #day2, th{
-  font-size: 18px;
-}
 
 #day1, #day2, td{
   font-size: 16px;
 }
 
+.thead tr, th{
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
 .tabs .tab a:hover, .tabs .tab a.active {
- 
   color: #5B1E00;
+  background-color: #ffffff;
 }
 
 .tabs .tab a {
@@ -128,5 +131,19 @@ footer.page-footer {
 }
 
 .tabs .tab a:focus, .tabs .tab a:focus.active{
-     background-color: rgb(255, 255, 255) !important;
+     background-color: #ffffff;
 }
+
+
+.together {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.time {
+  font-size: 18px;
+}
+
+
+
+
