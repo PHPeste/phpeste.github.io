@@ -6,6 +6,30 @@
  * Made By MaterializeCSS.com
  */
 
+h1 {
+  font-size: clamp( 36px, calc(2vw + 1rem), 64px );
+}
+
+h2 {
+  font-size: clamp( 24px, calc(1.66vw + 1rem), 50px );
+}
+
+h3 {
+  font-size: clamp( 20px, calc(0.8vw + 1rem), 42px );
+}
+
+h4 {
+  font-size: clamp( 18px, calc(0.8vw + 1rem), 36px );
+}
+
+h5 {
+  font-size: clamp( 12px, calc(0.5vw + 0.5rem), 24px );
+}
+
+h6 {
+  font-size: clamp( 12px, calc(0.4vw + 1rem), 20px );
+}
+
 nav ul a,
 nav .brand-logo {
   color: #5B1E00;
