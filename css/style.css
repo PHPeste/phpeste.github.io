@@ -5,29 +5,60 @@
  *
  * Made By MaterializeCSS.com
  */
+:root {
+  --common-size: calc(0.8vw + 1rem);
+}
 
 h1 {
-  font-size: clamp( 36px, calc(2vw + 1rem), 64px );
+  font-size: clamp(36px, var(--common-size), 64px);
 }
 
 h2 {
-  font-size: clamp( 24px, calc(1.66vw + 1rem), 50px );
+  font-size: clamp(24px, var(--common-size), 50px);
 }
 
-h3 {
-  font-size: clamp( 20px, calc(0.8vw + 1rem), 42px );
-}
-
-h4 {
-  font-size: clamp( 18px, calc(0.8vw + 1rem), 36px );
-}
-
-h5 {
-  font-size: clamp( 12px, calc(0.5vw + 0.5rem), 24px );
-}
-
+h3,
+h4,
+h5,
 h6 {
-  font-size: clamp( 12px, calc(0.4vw + 1rem), 20px );
+  font-size: clamp(18px, var(--common-size), 36px);
+}
+
+/* Estilize as informações do palestrante */
+.speaker-info {
+  text-align: center;
+}
+
+.speaker-name {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #795548;
+  color: #FFF;
+  border-radius: 5px;
+  border: #795548 solid 5px;
+  margin-bottom: 5px; /* Adicione margem inferior para separar o nome da cidade */
+  line-height: 1.2; 
+}
+
+.speaker-location {
+  font-size: 14px;
+  margin-top: 0; /* Redefina a margem superior para remover qualquer espaço extra */
+  line-height: 1;
+}
+
+/* Adicione media queries conforme necessário para ajustar o layout em dispositivos menores */
+@media (max-width: 768px) {
+  .speaker-info {
+    text-align: left;
+  }
+
+  .speaker-name {
+    font-size: 16px;
+  }
+
+  .speaker-location {
+    font-size: 12px;
+  }
 }
 
 nav ul a,
