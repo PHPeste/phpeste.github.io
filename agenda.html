@@ -1,591 +1,722 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="google-site-verification"
+      content="goV8Sr0Oyft81BUbaI82a-QVJYOATmgNBmPMmLVPY_M"
+    />
+    <meta
+      name="description"
+      content="PHPeste é uma conferência de PHP organizada pelas comunidades “cabra da peste” do
+  nordeste brasileiro."
+    />
+    <meta
+      name="application-name"
+      content="PHPeste 2023 | Fortaleza - Ceará - Brasil."
+    />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="author" content="Comunidade PHP com Rapadura" />
+    <meta name="creator" content="Comunidade PHP com Rapadura" />
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="google-site-verification" content="goV8Sr0Oyft81BUbaI82a-QVJYOATmgNBmPMmLVPY_M" />
-  <meta name="description" content="PHPeste é uma conferência de PHP organizada pelas comunidades “cabra da peste” do
-  nordeste brasileiro." />
-  <meta name="application-name" content="PHPeste 2023 | Fortaleza - Ceará - Brasil.">
-  <meta http-equiv="content-language" content="pt-br">
-  <meta name="author" content="Comunidade PHP com Rapadura">
-  <meta name="creator" content="Comunidade PHP com Rapadura">
+    <meta property="og:site_name" content="PHPeste.org" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="PHPeste 2023 | Fortaleza - Ceará - Brasil."
+    />
+    <meta
+      property="og:description"
+      content="PHPeste é uma conferência de PHP organizada pelas comunidades “cabra da peste” do
+  nordeste brasileiro."
+    />
+    <meta property="og:url" content="https://phpeste.org" />
+    <meta
+      property="og:image"
+      content="https://phpeste.org/images/phpeste_marrom.webp"
+    />
 
-  <meta property="og:site_name" content="PHPeste.org">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="PHPeste 2023 | Fortaleza - Ceará - Brasil.">
-  <meta property="og:description" content="PHPeste é uma conferência de PHP organizada pelas comunidades “cabra da peste” do
-  nordeste brasileiro.">
-  <meta property="og:url" content="https://phpeste.org">
-  <meta property="og:image" content="https://phpeste.org/images/phpeste_marrom.webp">
+    <title>PHPeste | Maior conferência PHP do Nordeste</title>
 
-  <title>PHPeste | Maior conferência PHP do Nordeste</title>
+    <!-- CSS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- CSS  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+  </head>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-
-</head>
-
-<body>
-  <div id="loading"></div>
-  <div class="page">
-    <div class="navbar-fixed">
-      <nav role="navigation"
-        style="background-image: url('images/parallax-slider/background-menu-1.webp'); box-shadow: none;">
-        <div class="nav-wrapper container">
-
-          <ul class="center hide-on-med-and-down">
-
-            <li><a class="scrollSuave" href="https://phpeste.org">Voltar</a></li>
-          </ul>
-
-          <ul id="nav-mobile" class="sidenav">
-            <li><a class="scrollSuave" href="https://phpeste.org">Voltar</a></li>
-
-          </ul>
-
-          <a href="#" data-target="nav-mobile" class="sidenav-trigger" title="Clique aqui para abri o menu"><i
-              class="material-icons" style="color: #5B1E00;">menu</i></a>
-        </div>
-      </nav>
-    </div>
-
-    <div class="container">
-      <div class="section" id="schedule">
-
-        <div class="row">
-          <div class="col s12 m12 center">
-            <br><br>
-            <h3 class="center brown-text">PROGRAMAÇÃO</h3>
-            <br><br>
-          </div>
-        </div>
-
-        <br>
-
-
-        <div class="row">
-          <div class="col s12 m12">
-            <ul class="tabs tabs-fixed-width z-depth-1">
-              <li class="tab col s3"><a href="#day1">DIA 1 (sexta-feira)</a></li>
-              <li class="tab col s3"><a  href="#day2">DIA 2 (sábado)</a></li>
+  <body>
+    <div id="loading"></div>
+    <div class="page">
+      <div class="navbar-fixed">
+        <nav
+          role="navigation"
+          style="
+            background-image: url('images/parallax-slider/background-menu-1.webp');
+            box-shadow: none;
+          "
+        >
+          <div class="nav-wrapper container">
+            <ul class="center hide-on-med-and-down">
+              <li>
+                <a class="scrollSuave" href="https://phpeste.org">Voltar</a>
+              </li>
             </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+              <li>
+                <a class="scrollSuave" href="https://phpeste.org">Voltar</a>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              data-target="nav-mobile"
+              class="sidenav-trigger"
+              title="Clique aqui para abri o menu"
+              ><i class="material-icons" style="color: #5b1e00">menu</i></a
+            >
+          </div>
+        </nav>
+      </div>
+
+      <div class="container">
+        <div class="section" id="schedule">
+          <div class="row">
+            <div class="col s12 m12 center">
+              <br /><br />
+              <h3 class="center brown-text">PROGRAMAÇÃO</h3>
+              <br /><br />
+              <a
+              href="sexta.html"
+              target="_blank"
+              title="Clique aqui para acessar a programação do dia"
+              class="btn-large waves-effect waves-light brown darken-2 scrollSuave"
+            > programação do dia </a>
+            </div>
           </div>
 
-          <div id="day1" class="col s12">
-          <table class="centered striped responsive-table z-depth-1">
-              <thead>
-                  <th>Horário</th>
-                  <th colspan="2">Trilha 1</th>
-                  <th colspan="2">Trilha 2</th>
-                </tr>
-                  <th class="time"><i class="small material-icons">access_time</i></th>
-                  <th >Atividade</th>
-                  <th>Artista</th>
-                  <th>Atividade</th>
-                  <th>Artista</th>
-                </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td class="time">08:00</td>
-                      <td class="together" colspan="3">Credenciamento e Coffee de boas vindas</td>
-                      <td class="together"></td>
-                  </tr>
-                  <tr>
-                      <td class="time">09:00</td>
-                      <td>Palestra A1</td>
-                      <td>
-                        <img src="images/speakers/avatar-fem.webp"
-                        title="Palestrante 1"
-                        alt="Palestrante 1"
-                        width="80px"
-                        id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                      </td>
-                      <td>Palestra B1</td>
-                      <td>
-                        <img src="images/speakers/avatar-masc.webp"
-                        title="Palestrante 1"
-                        alt="Palestrante 1"
-                        width="80px"
-                        id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                      </td>
-                  </tr>
-                  <tr>
-                      <td class="time">09:50</td>
-                      <td>Palestra A2</td>
-                      <td>
-                         <img src="images/speakers/avatar-fem.webp"
-                        title="Palestrante 1"
-                        alt="Palestrante 1"
-                        width="80px"
-                        id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                      </td>
-                      <td>Palestra B2</td>
-                      <td>
-                         <img src="images/speakers/avatar-masc.webp"
-                        title="Palestrante 1"
-                        alt="Palestrante 1"
-                        width="80px"
-                        id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                      </td>
-                  </tr>
-                <tr>
-                  <td class="time">10:40</td>
-                  <td>Palestra A3</td>
-                  <td>
-                     <img src="images/speakers/avatar-fem.webp"
-                        title="Palestrante 1"
-                        alt="Palestrante 1"
-                        width="80px"
-                        id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                  <td>Palestra B3</td>
-                  <td>
-                     <img src="images/speakers/avatar-masc.webp"
-                        title="Palestrante 1"
-                        alt="Palestrante 1"
-                        width="80px"
-                        id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                </tr>
-                <tr>
-                  <td class="time">11:30</td>
+          <br>
 
-                  <td class="center together" colspan="3">Almoço</td>
+          <div class="row">
+            <div class="col s12 m12">
+              <ul class="tabs tabs-fixed-width z-depth-1">
+                <li class="tab col s3">
+                  <a href="#day1">DIA 1 (sexta-feira)</a>
+                </li>
+                <li class="tab col s3"><a href="#day2">DIA 2 (sábado)</a></li>
+              </ul>
+            </div>
 
-                  <td class="together"></td>
-                </tr>
-                <tr>
-                  <td class="time">13:30</td>
-                  <td>Palestra A4</td>
-                  <td>
-                     <img src="images/speakers/avatar-masc.webp"
-                        title="Palestrante 1"
+            <div id="day1" class="col s12">
+              <table class="centered striped responsive-table z-depth-1">
+                <thead>
+                  <tr>
+                    <th>Horário</th>
+                    <th colspan="2">Trilha 1</th>
+                    <th colspan="2">Trilha 2</th>
+                  </tr>
+                  <tr>
+                    <th class="time">
+                      <i class="small material-icons">access_time</i>
+                    </th>
+                    <th>Atividade</th>
+                    <th>Artista</th>
+                    <th>Atividade</th>
+                    <th>Artista</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="time">08:00</td>
+                    <td class="together" colspan="3">
+                      Credenciamento e Coffee de boas vindas
+                    </td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">09:00</td>
+                    <td>Palestra A1</td>
+                    <td>
+                      <img
+                        src="images/speakers/LuizSiqueira.webp"
+                        title="Luiz Siqueira"
                         alt="Palestrante 1"
                         width="80px"
                         id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                  <td>Palestra B4</td>
-                  <td>
-                     <img src="images/speakers/avatar-fem.webp"
-                        title="Palestrante 1"
+                      />
+                      <br />
+                      Luiz Siqueira
+                    </td>
+                    <td>Palestra B1</td>
+                    <td>
+                      <img
+                        src="images/speakers/AndersonAragao.webp"
+                        title="Anderson Aragao"
                         alt="Palestrante 1"
                         width="80px"
                         id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                </tr>
-                <tr>
-                  <td class="time">14:20</td>
-                  <td>Palestra A5</td>
-                  <td>
-                     <img src="images/speakers/avatar-masc.webp"
-                        title="Palestrante 1"
+                      />
+                      <br />
+                      Anderson Aragao
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">09:50</td>
+                    <td>Palestra A2</td>
+                    <td>
+                      <img
+                        src="images/speakers/SandraRayane.webp"
+                        title="Sandra Rayane"
                         alt="Palestrante 1"
                         width="80px"
                         id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                  <td>Palestra B5</td>
-                  <td>
-                     <img src="images/speakers/avatar-fem.webp"
-                        title="Palestrante 1"
+                      />
+                      <br />
+                      Sandra Rayane
+                    </td>
+                    <td>Palestra B2</td>
+                    <td>
+                      <img
+                        src="images/speakers/LiviaCarolina.webp"
+                        title="Livia Carolina"
                         alt="Palestrante 1"
                         width="80px"
                         id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                </tr>
-                <tr>
-                  <td class="time">15:10</td>
-                  <td>Palestra A6</td>
-                  <td>
-                     <img src="images/speakers/avatar-masc.webp"
-                        title="Palestrante 1"
+                      />
+                      <br />
+                      Livia Carolina
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">10:40</td>
+                    <td>Palestra A3</td>
+                    <td>
+                      <img
+                        src="images/speakers/FernandoSantos.webp"
+                        title="Fernando Santos"
                         alt="Palestrante 1"
                         width="80px"
                         id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                  <td>Palestra B6</td>
-                  <td>
-                     <img src="images/speakers/avatar-fem.webp"
-                        title="Palestrante 1"
+                      />
+                      <br />
+                      Fernando Santos
+                    </td>
+                    <td>Palestra B3</td>
+                    <td>
+                      <img
+                        src="images/speakers/EvaldoBarbosa.webp"
+                        title="Evaldo Barbosa"
                         alt="Palestrante 1"
                         width="80px"
                         id="img-speakers"
-                        >
-                        <br>
-                        Palestrante
-                  </td>
-                </tr>
-                <tr>
-                  <td class="time">16:00</td>
-                  <td class="center together" colspan="3">Coffee break</td>
-                  <td class="together"></td>
-                </tr>
-                <tr>
-                  <td class="time">17:00</td>
-                  <td class="center together" colspan="3">Cerimonia de abertura</td>
-                  <td class="together"></td>
-                </tr>
-                <tr>
-                  <td class="time">18:00</td>
-                  <td class="center together" colspan="3">Mesa Redonda</td>
-                  <td class="together"></td>
-                </tr>
-                <tr>
-                  <td class="time">19:30</td>
-                  <td colspan="3"> Keynote <br> <em style="font-size: 16px;">Integração de serviços de IA. <br> 5 etapas para identificar e implementar integração com AIaaS</td>
-                      <td>
-                        <img src="images/speakers/engenheira.coelho.webp" 
+                      />
+                      <br />
+                      Evaldo Barbosa
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">11:30</td>
+
+                    <td class="center together" colspan="3">Almoço</td>
+
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">13:30</td>
+                    <td>Palestra A4</td>
+                    <td>
+                      <img
+                        src="images/speakers/VitorMattos.webp"
+                        title="Vitor Mattos"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Vitor Mattos
+                    </td>
+                    <td>Palestra B4</td>
+                    <td>
+                      <img
+                        src="images/speakers/AthosRibeiro.webp"
+                        title="Athos Ribeiro"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Athos Ribeiro
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">14:30</td>
+                    <td>Palestra A5</td>
+                    <td>
+                      <img
+                        src="images/speakers/DaianeAlves.webp"
+                        title="Daiane Alves"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Daiane Alves
+                    </td>
+                    <td>Palestra B5</td>
+                    <td>
+                      <img
+                        src="images/speakers/HelenaSaminez.webp"
+                        title="Helena Saminez"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Helena Saminez
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">15:10</td>
+                    <td>Palestra A6</td>
+                    <td>
+                      <img
+                        src="images/speakers/BrunoLopes.webp"
+                        title="Bruno Lopes"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Bruno Lopes
+                    </td>
+                    <td>Palestra B6</td>
+                    <td>
+                      <img
+                        src="images/speakers/VicenteMartins.webp"
+                        title="Vicente Martins"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Vicente Martins
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">16:00</td>
+                    <td class="center together" colspan="3">Coffee break</td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">17:00</td>
+                    <td class="center together" colspan="3">
+                     Show de humor do Pokemao
+                    </td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">17:15</td>
+                    <td class="center together" colspan="3">
+                     Cerimônia de Abertura
+                    </td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">17:30</td>
+                    <td class="center together" colspan="3">Mesa Redonda</td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">19:00</td>
+                    <td colspan="3">
+                     <p>Keynote</p>
+                      Integração de serviços de IA. <br />
+                      5 etapas para identificar e implementar integração com
+                      AIaaS
+                    </td>
+                    <td>
+                      <img
+                        src="images/speakers/engenheira.coelho.webp"
                         title="Leticia Coelho"
                         alt="Leticia Coelho"
                         width="80px"
-                        id="img-speakers">
-                        <br>
-                        Leticia Coelho
-                      </td>
-                </tr>
-              </tbody>
-          </table>
-        </div>
+                        id="img-speakers"
+                      />
+                      <br />
+                      Leticia Coelho
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-        <div id="day2" class="col s12">
-          <table class="centered striped responsive-table z-depth-1">
-            <thead>
-              <tr>
-                <th>Horário</th>
-                <th class="center" colspan="2">Trilha 1</th>
-                <th class="center" colspan="2">Trilha 2</th>
-              </tr>
-              <tr>
-                <th><i class="small material-icons">access_time</i></th>
-                <th>Atividade</th>
-                <th>Artista</th>
-                <th>Atividade</th>
-                <th>Artista</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="time">08:00</td>
-                <td>Palestra A1</td>
-                <td>
-                  <img src="images/speakers/avatar-masc.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante   
-                </td>
-                <td>Palestra B1</td>
-                <td>
-                  <img src="images/speakers/avatar-fem.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante 
-                </td>
-              </tr>
-              <tr>
-                <td class="time">08:50</td>
-                <td>Palestra A2</td>
-                <td>
-                  <img src="images/speakers/avatar-masc.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                <td>Palestra B2</td>
-                <td>
-                  <img src="images/speakers/avatar-fem.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-              </tr>
-              <tr>
-                <td class="time">09:40</td>
-                <td class="together" colspan="3">Coffee break</td>
-                <td class="together"></td>
-              </tr>
-              <tr>
-                <td class="time">10:30</td>
-                <td>Palestra A3</td>
-                <td>
-                  <img src="images/speakers/avatar-fem.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                <td>Palestra B3</td>
-                <td>
-                  <img src="images/speakers/avatar-masc.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-              </tr>
-              <tr>
-                <td class="time">11:20</td>
-                <td>Palestra A4</td>
-                <td>
-                  <img src="images/speakers/avatar-fem.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-                <td>Palestra B4</td>
-                <td>
-                  <img src="images/speakers/avatar-masc.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-              </tr>
-              <tr>
-                <td class="time">12:00</td>
-                <td class="together" colspan="3">Almoço</td>
-                <td class="together"></td>
-              </tr>
-              <tr>
-                <td class="time">13:30</td>
-                <td>Palestra A5</td>
-                <td>
-                  <img src="images/speakers/avatar-masc.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-                <td>Palestra B5</td>
-                <td>
-                  <img src="images/speakers/avatar-fem.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-              </tr>
-              <tr>
-                <td class="time">14:20</td>
-                <td>Palestra A6</td>
-                <td>
-                  <img src="images/speakers/avatar-masc.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-                <td>Palestra B6</td>
-                <td>
-                  <img src="images/speakers/avatar-fem.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-              </tr>
-              <tr>
-                <td class="time">15:10</td>
-                <td>Palestra A7</td>
-                <td>
-                  <img src="images/speakers/avatar-masc.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-                <td>Palestra B7</td>
-                <td>
-                  <img src="images/speakers/avatar-fem.webp"
-                  title="Palestrante 1"
-                  alt="Palestrante 1"
-                  width="80px"
-                  id="img-speakers"
-                  >
-                  <br>
-                  Palestrante </td>
-                </td>
-              </tr>
-              <tr>
-                <td class="time">16:00</td>
-                <td class="together" colspan="3">Encerramento</td>
-                <td class="together"></td>
-              </tr>
-              <tr>
-                <td class="time">17:00</td>
-                <td class="together" colspan="3">Coquetel não alcoolico e banda</td>
-                <td class="together"></td>
-              </tr>
-            </tbody>
-          </table>
+            <div id="day2" class="col s12">
+              <table class="centered striped responsive-table z-depth-1">
+                <thead>
+                  <tr>
+                    <th>Horário</th>
+                    <th class="center" colspan="2">Trilha 1</th>
+                    <th class="center" colspan="2">Trilha 2</th>
+                  </tr>
+                  <tr>
+                    <th><i class="small material-icons">access_time</i></th>
+                    <th>Atividade</th>
+                    <th>Artista</th>
+                    <th>Atividade</th>
+                    <th>Artista</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="time">08:00</td>
+                    <td>Palestra A1</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-masc.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                    <td>Palestra B1</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-fem.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">08:50</td>
+                    <td>Palestra A2</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-masc.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                    <td>Palestra B2</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-fem.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">09:40</td>
+                    <td class="together" colspan="3">Coffee break</td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">10:30</td>
+                    <td>Palestra A3</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-fem.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                    <td>Palestra B3</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-masc.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">11:20</td>
+                    <td>Palestra A4</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-fem.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                    <td>Palestra B4</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-masc.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">12:00</td>
+                    <td class="together" colspan="3">Almoço</td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">13:30</td>
+                    <td>Palestra A5</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-masc.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                    <td>Palestra B5</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-fem.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">14:20</td>
+                    <td>Palestra A6</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-masc.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                    <td>Palestra B6</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-fem.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">15:10</td>
+                    <td>Palestra A7</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-masc.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                    <td>Palestra B7</td>
+                    <td>
+                      <img
+                        src="images/speakers/avatar-fem.webp"
+                        title="Palestrante 1"
+                        alt="Palestrante 1"
+                        width="80px"
+                        id="img-speakers"
+                      />
+                      <br />
+                      Palestrante
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time">16:00</td>
+                    <td class="together" colspan="3">Encerramento</td>
+                    <td class="together"></td>
+                  </tr>
+                  <tr>
+                    <td class="time">17:00</td>
+                    <td class="together" colspan="3">
+                      Coquetel não alcoolico e banda
+                    </td>
+                    <td class="together"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
+
+        <h4 class="center">Obs: Programação sujeita a alteração</h4>
       </div>
 
-      <h4 class="center">Obs: Programação sujeita a alteração</h4>
-    </div>
+      <br />
 
-    <br>
-
-    <div class="container">
-      <div class="section" id="tickets">
-
-        <div class="row">
-          <div class="col s12 m12 center">
-            <br><br>
-            <h3 class="center brown-text">INGRESSOS</h3>
-            <br><br>
-            <h4 class="center">Falai jovi caso queira comprar teu ingresso e dos teus amigos é só clicar no botão abaixo!
-            </h4>
-            <br>
-            <a href="https://www.sympla.com.br/evento/phpeste-2023-fortaleza-ce/2055893" target="_blank" title="Clique aqui para comprar o seu ingresso"
-              class="btn-large waves-effect waves-light brown darken-2 scrollSuave"> Comprar ingresso!</a>
-              <br><br>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <br>
-
-    <footer class="page-footer brown darken-3" id="contact">
       <div class="container">
-        <div class="row center">
-          <div class="col l12 s12">
-            <img class="responsive-img" title="Logomarca do evento PHPeste branca"
-              alt="Logomarca do evento PHPeste branca" src="images/phpeste_claro.webp" />
+        <div class="section" id="tickets">
+          <div class="row">
+            <div class="col s12 m12 center">
+              <br /><br />
+              <h3 class="center brown-text">INGRESSOS</h3>
+              <br /><br />
+              <h4 class="center">
+                Falai jovi caso queira comprar teu ingresso e dos teus amigos é
+                só clicar no botão abaixo!
+              </h4>
+              <br />
+              <a
+                href="https://www.sympla.com.br/evento/phpeste-2023-fortaleza-ce/2055893"
+                target="_blank"
+                title="Clique aqui para comprar o seu ingresso"
+                class="btn-large waves-effect waves-light brown darken-2 scrollSuave"
+              >
+                Comprar ingresso!</a
+              >
+              <br /><br />
+            </div>
           </div>
+        </div>
+      </div>
+
+      <br />
+
+      <footer class="page-footer brown darken-3" id="contact">
+        <div class="container">
           <div class="row center">
             <div class="col l12 s12">
-              <h4 class="white-text">contato@phpeste.org</h4>
+              <img
+                class="responsive-img"
+                title="Logomarca do evento PHPeste branca"
+                alt="Logomarca do evento PHPeste branca"
+                src="images/phpeste_claro.webp"
+              />
             </div>
-          </div>
-          <div class="col l12 s12">
-            <h5 class="white-text" style="margin-bottom: 20px;">Redes Sociais</h5>
-            <a class="white-text" target="_blank" href="https://instagram.com/phpeste">Instagram</a>
-            <a style="margin: 30px;" class="white-text" target="_blank" href="https://twitter.com/phpestene">Twitter</a>
-            <a class="white-text" target="_blank" href="https://t.me/phpeste">Telegram</a>
+            <div class="row center">
+              <div class="col l12 s12">
+                <h4 class="white-text">contato@phpeste.org</h4>
+              </div>
+            </div>
+            <div class="col l12 s12">
+              <h5 class="white-text" style="margin-bottom: 20px">
+                Redes Sociais
+              </h5>
+              <a
+                class="white-text"
+                target="_blank"
+                href="https://instagram.com/phpeste"
+                >Instagram</a
+              >
+              <a
+                style="margin: 30px"
+                class="white-text"
+                target="_blank"
+                href="https://twitter.com/phpestene"
+                >Twitter</a
+              >
+              <a class="white-text" target="_blank" href="https://t.me/phpeste"
+                >Telegram</a
+              >
+            </div>
           </div>
         </div>
-
-      </div>
-      <div class="footer-copyright brown darken-4">
-        <div class="container">
-          <div class="row center" style="margin-top: 15px;">
-            <div class="col s12 m6">
-              Thanks to <a class="brown-text text-lighten-3" target="_blank"
-                href="http://materializecss.com">Materialize</a>
-            </div>
-            <div class="col s12 m6">
-              PHPeste 2023 | Fortaleza - Ceará - Brasil.
+        <div class="footer-copyright brown darken-4">
+          <div class="container">
+            <div class="row center" style="margin-top: 15px">
+              <div class="col s12 m6">
+                Thanks to
+                <a
+                  class="brown-text text-lighten-3"
+                  target="_blank"
+                  href="http://materializecss.com"
+                  >Materialize</a
+                >
+              </div>
+              <div class="col s12 m6">
+                PHPeste 2023 | Fortaleza - Ceará - Brasil.
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script src="js/faq.js"></script>
-  <script src="js/modal.js"></script>
-  <script src="js/tab.js"></script>
-
-</body>
-<script>
-  let $doc = $('html, body');
-  $('.scrollSuave').click(function () {
-    $doc.animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
-    }, 2000);
-    return false;
-  });
-
-</script>
-
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/tab.js"></script>
+  </body>
+  <script>
+    let $doc = $("html, body");
+    $(".scrollSuave").click(function () {
+      $doc.animate(
+        {
+          scrollTop: $($.attr(this, "href")).offset().top,
+        },
+        2000
+      );
+      return false;
+    });
+  </script>
 </html>
- 
