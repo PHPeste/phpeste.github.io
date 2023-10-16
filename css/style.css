@@ -218,3 +218,29 @@ footer.page-footer {
 #day1 p {
   line-height: 1.5;
 }
+
+tfoot {
+  font-weight: bolder;
+}
+
+#result-balance {
+  width: fit-content;
+  background-color: rgba(66,66,66,1);
+  color: white;
+  padding: 1em;
+  border-radius: 1em;
+  letter-spacing: 4px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+#result-balance:hover {
+  background-color: rgba(166,166,166,1);
+  border: 2px solid black;
+  color: black;
+}
+
+#result-balance > span {
+  font-weight: bold;
+  text-wrap: nowrap;
+}
